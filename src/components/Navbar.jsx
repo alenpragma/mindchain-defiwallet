@@ -18,7 +18,7 @@ const Navbar = () => {
 
       console.log(window.innerWidth)
   
-      if(window.innerWidth < 768) {
+      if(window.innerWidth < 769) {
         setShow(false)
       } else {
         setShow(true)
