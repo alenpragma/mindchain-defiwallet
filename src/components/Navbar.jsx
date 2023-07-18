@@ -13,10 +13,12 @@ const Navbar = () => {
   const [show, setShow] = useState(true);
 
   useEffect(()=>{
+   
     function resizeWidth(e) {
-      console.log(window.innerWidth)
 
-      if(window.innerWidth < 769) {
+      console.log(window.innerWidth)
+  
+      if(window.innerWidth < 768) {
         setShow(false)
       } else {
         setShow(true)
@@ -24,6 +26,8 @@ const Navbar = () => {
     }
 
     window.addEventListener("resize", resizeWidth)
+
+    
   })
 
 
