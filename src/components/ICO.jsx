@@ -38,8 +38,8 @@ const ICO = () => {
                 </TabList>
 
                 <TabPanel>
-                    <div className="flex pt-[60px]">
-                        <div className="w-2/4">
+                    <div className="flex flex-col md:flex-row pt-[60px]">
+                        <div className=" w-full md:w-2/4 pb-[40px] md:pb-[0]">
                             <h2 className='font-cabin font-normal pb-[30px]'>ICO TERMS</h2>
                             <div className="flex flex-col gap-[15px]">
                                 <div>
@@ -56,27 +56,31 @@ const ICO = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-2/4">
+                        <div className="w-full md:w-2/4 ">
                             <div className="bg-[#f7be69fe]  w-full p-[35px] rounded">
                                 <div className=" w-full flex pl-0 lg:pl-[53px]">
                                 <Countdown
                                 targetDate={oneHour}
                                 renderer={({ days, hours, minutes, seconds }) => (
-                                <div className='flex  gap-x-2 lg:gap-x-6 font-cabin semibold text-[1rem] md:text-[16px] lg:text-[28px] text-white'>
-                                    <div>{days}<span className='px-[10px] lg:px-[15px]'>:</span></div>
-                                    <div>{hours}<span className='px-[10px] lg:px-[15px]'>:</span></div>
-                                    <div>{minutes}<span className='px-[10px] lg:px-[15px]'>:</span></div>
+                                <div className=''>
+                                    <div className="flex  gap-x-6 md:gap-x-6 font-cabin semibold text-[1rem] md:text-[16px] lg:text-[28px] text-white">
+                                    <div>{days}<span className='px-[5px] lg:px-[15px]'>:</span></div>
+                                    <div>{hours}<span className='px-10px] lg:px-[15px]'>:</span></div>
+                                    <div>{minutes}<span className='px-[0px] lg:px-[15px]'>:</span></div>
                                     <div>{seconds}</div>
+                                    </div>
+                                    <div className="v">
+                                    <div className="flex gap-2  lg:gap-6 text-[12px] lg:text-[18px] text-white pb-[15px]">
+                                        <div>Days</div>
+                                        <div>hours</div>
+                                        <div>minutes</div>
+                                        <div>seconds</div>
+                                     </div>
+                                    </div>
                                 </div>
                                 
                                 )}/>
                             
-                            </div>
-                            <div className="flex gap-2 lg:gap-8 text-[12px] lg:text-[18px] text-white pl-0 lg:pl-[53px] pb-[15px]">
-                                <div>Days</div>
-                                <div>hours</div>
-                                <div>minutes</div>
-                                <div>seconds</div>
                             </div>
                             <div className='flex justify-end gap-[10px] pb-[15px]'>
                                 <p className='pr-[5px] text-[12px] lg:pr-[60px] relative lg:before:absolute lg:before:w-[1px] lg:before:h-[33px] before:bg-white lg:before:content-[""] before:bottom-[-280%] before:left-[20%] lg:before:translate-x-[-50%] lg:before:translate-y-[-50%] before:z-1 '>Presale</p>
@@ -89,7 +93,7 @@ const ICO = () => {
                                 </div>
                                 
                                <div className="flex justify-center">
-                               <button className=' bg-gradient-to-r from-[#DEA83C] text-[10px] md:text-[18px] bg-primary text-white py-[5px] lg:py-2 px-2 md:px-7 mt-[20px] uppercase rounded-full hover:bg-[#dea029]'>Join the ICO Now</button>
+                               <button className=' bg-gradient-to-r from-[#DEA83C] text-[10px] md:text-[18px] bg-primary text-white py-[10px] lg:py-2 px-3 md:px-7 mt-[20px] uppercase rounded-full hover:bg-[#dea029]'>Join the ICO Now</button>
                                </div>
 
                             </div>

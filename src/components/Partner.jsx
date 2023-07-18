@@ -8,7 +8,7 @@ const Partner = () => {
   return (
     <section className='bg-lightBlue text-white'>
         <Container>
-            <div className="flex w-3/6 justify-center mx-auto">
+            <div className="flex w-3/6 justify-center mx-auto flex-wrap">
             <img className="h-[80px]" src={partnerImg_1} alt="partnerImg_1" />
             <img className="h-[80px]" src={partnerImg_2} alt="partnerImg_2" />
             <img className="h-[80px]" src={partnerImg_3} alt="partnerImg_3" />

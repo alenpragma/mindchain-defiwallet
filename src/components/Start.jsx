@@ -15,7 +15,7 @@ const Start = () => {
     <section className='pt-[70px] pb-[150px] bg-lightBlue relative'>
         <Container>
 
-        <img className='absolute top-[0] right-[-1821px] rotate-[221deg] z-[100] w=[60%]' src={solorShape} alt="solorShape" />
+        <img className='absolute top-[0] right-[-1821px] rotate-[221deg] z-[100] w=[60%] hidden lg:block' src={solorShape} alt="solorShape" />
         
         <div className="box text-center text-white">
           <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-4 px-11 uppercase ml-[10px]  text-white rounded-full hover:bg-[#dea029]'>Buy Package</button>
@@ -42,17 +42,17 @@ const Start = () => {
             <div className="w-full md:w-1/3">
               <img className='w-[100px] inline-block' src={chained} alt="chained" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Mining</h3>
-              <p className='px-[120px] md:px-[40px]'> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
+              <p className='px-[30px] md:px-[40px]'> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
             </div>
             <div className="w-full md:w-1/3">
               <img className='w-[100px] inline-block' src={stacked} alt="stacked" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Staking</h3>
-              <p className='px-[120px] md:px-[40px]'> Earn daily rewards on your idle tokens. Simple & Secure. Search popular coins and start earning. </p>
+              <p className='px-[30px] md:px-[40px]'> Earn daily rewards on your idle tokens. Simple & Secure. Search popular coins and start earning. </p>
             </div>
             <div className="w-full md:w-1/3">
               <img className='w-[100px] inline-block' src={compact} alt="compact" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Trading</h3>
-              <p className='px-[120px] md:px-[40px]'> Supercharged features to make you happy and lorem ipsum sit dolor amet </p>
+              <p className='px-[30px] md:px-[40px]'> Supercharged features to make you happy and lorem ipsum sit dolor amet </p>
             </div>
           </div>
           <div className="play-video flex justify-center animate-bounce pt-[100px] md:pt-[50px] animate">

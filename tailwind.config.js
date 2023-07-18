@@ -6,6 +6,11 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
+    // screens: {
+    //   'xs': '300px',
+    //   // => @media (min-width: 640px) { ...   }
+      
+    // },
     extend: {
       maxWidth: {
         container: "1170px",
