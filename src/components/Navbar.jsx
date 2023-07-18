@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const [show, setShow] = useState(true);
 
-  useEffect(()=>{
+  useEffect((e)=>{
    
     function resizeWidth(e) {
 
