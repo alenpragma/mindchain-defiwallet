@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6,p {
 .react-tabs__tab {
 	display: inline-block;
 	border: none !important;
-    padding: 0 50px;
+    /* padding: 0 50px; */
 }
 
 .react-tabs__tab:focus::after {
@@ -67,3 +67,7 @@ h1,h2,h3,h4,h5,h6,p {
 	color: #EDC000;
 
 } */
+
+.a {
+	display: hidden ;
+}

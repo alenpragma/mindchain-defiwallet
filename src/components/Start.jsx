@@ -38,26 +38,26 @@ const Start = () => {
           </div>
 
           </div>
-          <div className="flex justify-center">
-            <div className="w-1/3">
+          <div className="flex flex-col md:flex-row justify-center gap-y-[50px]">
+            <div className="w-full md:w-1/3">
               <img className='w-[100px] inline-block' src={chained} alt="chained" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Mining</h3>
-              <p className='px-[40px]'> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
+              <p className='px-[120px] md:px-[40px]'> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
             </div>
-            <div className="w-1/3">
+            <div className="w-full md:w-1/3">
               <img className='w-[100px] inline-block' src={stacked} alt="stacked" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Staking</h3>
-              <p className='px-[40px]'> Earn daily rewards on your idle tokens. Simple & Secure. Search popular coins and start earning. </p>
+              <p className='px-[120px] md:px-[40px]'> Earn daily rewards on your idle tokens. Simple & Secure. Search popular coins and start earning. </p>
             </div>
-            <div className="w-1/3">
+            <div className="w-full md:w-1/3">
               <img className='w-[100px] inline-block' src={compact} alt="compact" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Trading</h3>
-              <p className='px-[40px]'> Supercharged features to make you happy and lorem ipsum sit dolor amet </p>
+              <p className='px-[120px] md:px-[40px]'> Supercharged features to make you happy and lorem ipsum sit dolor amet </p>
             </div>
           </div>
-          <div className="play-video flex justify-center animate-bounce pt-[40px] animate">
+          <div className="play-video flex justify-center animate-bounce pt-[100px] md:pt-[50px] animate">
             <span className="relative flex h-[55px] w-[55px]">
-            <BsFillPlayFill className='absolute top-[27%] left-[29%] text-[30px] z-[1]' />
+            <BsFillPlayFill className='absolute top-[50%] left-[50%] text-[30px] z-[1] translate-x-[-50%] translate-y-[-50%]' />
               <span className="animate-ping ease-in duration-300 absolute inline-flex h-full w-full rounded-full bg-[#0DF3B2] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-[55px] w-[55px] bg-[#0DF3B2]"></span>
               
