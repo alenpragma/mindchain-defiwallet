@@ -23,9 +23,9 @@ const Ecosystem = () => {
                 <div className="w-full md:w-3/6 text-center md:text-start">
                     <div className="flex gap-2 items-center justify-center md:justify-start pb-[50px]">
                         <img className='w-[40px]' src={bitbanner} alt="bitbanner" />
-                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[18%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Mind Blockchain</h2>
+                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[18%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Our Staking Program</h2>
                     </div>
-                    <p className='sm:pr-0 md:pr-[100px] md:px-0 pb-[30px] px-[30px]'> Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Eu impetus perfecto sit, no sea labore detraxit. </p>
+                    <p className='sm:pr-0 md:pr-[100px] md:px-0 pb-[30px] px-[30px]'> We offer the best staking opportunity for MIND/MUSD crypto assets. Create an account on Mindchain Wallet and start staking from today. Maximum staking duration 730 days & APY up to 20%. </p>
                     <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Learn More</button>
                 </div>
                 <div className="w-full md:w-3/6">
@@ -40,10 +40,10 @@ const Ecosystem = () => {
                 <div className="w-full md:w-[45%] text-center md:text-start">
                 <div className="flex gap-2 items-center pb-[50px] justify-center md:justify-start">
                         <img className='w-[40px]' src={bitnetwork} alt="bitnetwork" />
-                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[12%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Decentralized Exchange</h2>
+                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[12%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Our Merchant Program</h2>
                     </div>
                     <p className='sm:pr-0 md:pr-[40px] px-[30px] md:px-0 pb-[30px]'>
-                         Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Eu impetus perfecto sit, no sea labore detraxit. 
+                         We have also a Merchant program. Mindchain Merchant will get 10% extra bonus with MUSD staking. Merchant also can create coupons. Merchant gets lifetime validity and 24/7 usability from the company. 
                     </p>
                     <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Whitepaper</button>
                 </div>
@@ -52,10 +52,10 @@ const Ecosystem = () => {
                 <div className="w-full md:w-3/6 text-center md:text-start">
                     <div className="flex gap-2 justify-center md:justify-start items-center pb-[50px]">
                         <img className='w-[40px]' src={bitmining} alt="bitmining" />
-                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[18%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Mind Wallet</h2>
+                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[18%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Our Ambassador Program</h2>
                     </div>
                     <p className='sm:pr-0 md:pr-[100px] pb-[30px] px-[30px] md:px-0 text-center md:text-start'>
-                        Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Eu impetus perfecto sit, no sea labore detraxit. 
+                        Ambassadors are passionate members of the crypto world who help connect as Ambassadors. Mindhain Ambassadors will receive daily staking, network & affiliate bonuses. There is also the benefit of MIND public exchanger. 
                     </p>
                     <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Join the ICO</button>
                 </div>
