@@ -17,10 +17,10 @@ const Navbar = () => {
 
 
   return (
-    <nav className='bg-lightBlue py-5 text-white absolute w-full z-10'>
+    <nav className='bg-lightBlue py-5 text-white absolute w-full z-10 animate-fade-down animate-once'>
       <Container>
       <div className="flex flex-col md:flex-row gap-y-[40px] md:gap-y-0 justify-between relative">
-        <div className="w-full lg:w-1/4 ">
+        <div className="w-full lg:w-1/4">
             <img className='w-9 inline-block animate-spin origin-center' src={navicon} alt="icon" />
             <span className='pl-2 lg:pl-4 font-cabin font-semibold text-[13px]lg:text-[19px] tracking-widest'>MINDCHAINWALLET</span>
         </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
         }
         {show &&
-        <div className=" min-[0px]:hidden md:blcok w-full md:w-3/4 md:flex flex-col md:flex-row md:items-center gap-x-2 text-end   md:justify-end">
+        <div className=" min-[0px]:hidden md:blcok w-full md:w-3/4 md:flex flex-col md:flex-row md:items-center gap-x-2 text-end   md:justify-end ">
           
           <ul className=' flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center'>
             <li className=''><a href="#">Mindchain Coin</a></li>

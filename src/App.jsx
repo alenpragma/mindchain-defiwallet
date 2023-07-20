@@ -5,6 +5,9 @@ import Start from './components/Start'
 import Ecosystem from './components/Ecosystem'
 import ICO from './components/ICO'
 import Tracking from './components/Tracking'
+import Team from './components/Team'
+import Advisors from './components/Advisors'
+// import FAQ from './components/FAQ'
 
 
 
@@ -19,6 +22,9 @@ function App() {
     <Ecosystem />
     <ICO />
     <Tracking />
+    <Team />
+    <Advisors />
+    {/* <FAQ /> */}
     </>
   )
 }

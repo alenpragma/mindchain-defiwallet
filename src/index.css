@@ -66,3 +66,70 @@ h1,h2,h3,h4,h5,h6,p {
 	color:#d1d1d1;
 
 }
+
+.upDown-animation_1 {
+	animation: upDown_1  4s infinite;
+}
+.upDown-animation_2 {
+	animation: upDown_2  4s infinite;
+}
+
+.upDown-animation_3 {
+	animation: upDown_3  4s infinite;
+}
+.upDown-animation_4 {
+	animation: upDown_4  4s infinite;
+}
+
+@keyframes upDown_1 {
+	0% {
+		transform: translateY(-90%);
+	}
+	50% {
+		transform: translateY(-60%);
+		
+	}
+	100% {
+		transform: translateY(-90%);
+	}
+}
+
+@keyframes upDown_2 {
+	0% {
+		transform: translateY(-100%);
+	}
+	50% {
+		transform: translateY(-30%);
+		
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}
+
+@keyframes upDown_3 {
+	0% {
+		transform: translateY(-80%);
+	}
+	50% {
+		transform: translateY(-50%);
+		
+	}
+	100% {
+		transform: translateY(-80%);
+	}
+}
+
+@keyframes upDown_4 {
+	0% {
+		transform: translateY(-80%);
+	}
+	50% {
+		transform: translateY(-50%);
+		
+	}
+	100% {
+		transform: translateY(-80%);
+	}
+}
+
