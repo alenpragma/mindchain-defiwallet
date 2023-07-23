@@ -28,7 +28,7 @@ const Team = () => {
             </div>
             <div className="w-[100%] flex flex-col md:flex-row justify-center gap-[30px] flex-wrap text-center">
                 <div className="w-full md:w-[28%] ">
-                    <div className=" border border-[#DEA83C30] p-[20px]] text-center group hover:shadow-lg hover:shadow-primary shadow-lg shadow-[#DEA83C30]">
+                    <div className="hover:translate-y-[-15px] duration-700 hover:cursor-pointer border border-[#DEA83C30] p-[20px]] text-center group hover:shadow-lg hover:shadow-primary shadow-lg shadow-[#DEA83C30]">
                         <div className="relative mt-[30px]">
                             <img className='w-[130px] h-[130px] mx-auto rounded-full border-4 border-transparent outline-4 outline-[#00FF9919] outline delay-100 group-hover:outline-[#00FF99]' src={teamMemberOneImg} alt="teamMemberOneImg" />
 
@@ -39,7 +39,7 @@ const Team = () => {
                         <p className='px-[20px] pb-[30px]'> John is a Crypto enthusiast. He was one of the first bolckchain actors in the world.</p>
                     </div>
                 </div>
-                <div className="w-full md:w-[28%] ">
+                <div className="w-full md:w-[28%] hover:translate-y-[-15px] duration-700 hover:cursor-pointer">
                     <div className=" border border-[#DEA83C30] p-[20px]] text-center group hover:shadow-lg hover:shadow-primary shadow-lg shadow-[#DEA83C30]">
                         <div className="relative mt-[30px]">
                             <img className='w-[130px] h-[130px] mx-auto rounded-full border-4 border-transparent outline-4 outline-[#00FF9919] outline delay-100 group-hover:outline-[#00FF99]' src={teamMemberThreeImg} alt="teamMemberThreeImg" />
@@ -51,7 +51,7 @@ const Team = () => {
                         <p className='px-[20px] pb-[30px]'> John is a Crypto enthusiast. He was one of the first bolckchain actors in the world.</p>
                     </div>
                 </div>
-                <div className="w-full md:w-[28%] ">
+                <div className="w-full md:w-[28%] hover:translate-y-[-15px] duration-700 hover:cursor-pointer">
                     <div className=" border border-[#DEA83C30] p-[20px]] text-center group hover:shadow-lg hover:shadow-primary shadow-lg shadow-[#DEA83C30]">
                         <div className="relative mt-[30px]">
                             <img className='w-[130px] h-[130px] mx-auto rounded-full border-4 border-transparent outline-4 outline-[#00FF9919] outline delay-100 group-hover:outline-[#00FF99]' src={teamMemberFiveImg} alt="teamMemberFiveImg" />
@@ -63,7 +63,7 @@ const Team = () => {
                         <p className='px-[20px] pb-[30px]'> John is a Crypto enthusiast. He was one of the first bolckchain actors in the world.</p>
                     </div>
                 </div>
-                <div className="w-full md:w-[28%] ">
+                <div className="w-full md:w-[28%] hover:translate-y-[-15px] duration-700 hover:cursor-pointer">
                     <div className=" border border-[#DEA83C30] p-[20px]] text-center group hover:shadow-lg hover:shadow-primary shadow-lg shadow-[#DEA83C30]">
                         <div className="relative mt-[30px]">
                             <img className='w-[130px] h-[130px] mx-auto rounded-full border-4 border-transparent outline-4 outline-[#00FF9919] outline delay-100 group-hover:outline-[#00FF99]' src={teamMemberSevenImg} alt="teamMemberSevenImg" />
@@ -75,7 +75,7 @@ const Team = () => {
                         <p className='px-[20px] pb-[30px]'> John is a Crypto enthusiast. He was one of the first bolckchain actors in the world.</p>
                     </div>
                 </div>
-                <div className="w-full md:w-[28%] ">
+                <div className="w-full md:w-[28%] hover:translate-y-[-15px] duration-700 hover:cursor-pointer">
                     <div className=" border border-[#DEA83C30] p-[20px]] text-center group hover:shadow-lg hover:shadow-primary shadow-lg shadow-[#DEA83C30]">
                         <div className="relative mt-[30px]">
                             <img className='w-[130px] h-[130px] mx-auto rounded-full border-4 border-transparent outline-4 outline-[#00FF9919] outline delay-100 group-hover:outline-[#00FF99]' src={teamMemberNineImg} alt="teamMemberNineImg" />
@@ -87,7 +87,7 @@ const Team = () => {
                         <p className='px-[20px] pb-[30px]'> John is a Crypto enthusiast. He was one of the first bolckchain actors in the world.</p>
                     </div>
                 </div>
-                <div className="w-full md:w-[28%] ">
+                <div className="w-full md:w-[28%] hover:translate-y-[-15px] duration-700 hover:cursor-pointer">
                     <div className=" border border-[#DEA83C30] p-[20px]] text-center group hover:shadow-lg hover:shadow-primary shadow-lg shadow-[#DEA83C30]">
                         <div className="relative mt-[30px]">
                             <img className='w-[130px] h-[130px] mx-auto rounded-full border-4 border-transparent outline-4 outline-[#00FF9919] outline delay-100 group-hover:outline-[#00FF99]' src={teamMemberElevenImg} alt="teamMemberElevenImg" />

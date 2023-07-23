@@ -63,17 +63,17 @@ const Start = () => {
 
           </div>
           <div className="flex flex-col md:flex-row justify-center gap-y-[50px]">
-            <div className="w-full md:w-1/3" ref={startRight}>
+            <div className="w-full md:w-1/3 hover:translate-y-[-20px] duration-700 hover:cursor-pointer" ref={startRight}>
               <img className='w-[100px] inline-block' src={chained} alt="chained" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Mining</h3>
               <p className='px-[30px] md:px-[40px] h-full '> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
             </div>
-            <div className="w-full md:w-1/3">
+            <div className="w-full md:w-1/3 hover:translate-y-[-20px] duration-700 hover:cursor-pointer">
               <img className='w-[100px] inline-block' src={stacked} alt="stacked" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Staking</h3>
               <p className='px-[30px] md:px-[40px] h-full '> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
             </div>
-            <div className="w-full md:w-1/3">
+            <div className="w-full md:w-1/3 hover:translate-y-[-20px] duration-700 hover:cursor-pointer">
               <img className='w-[100px] inline-block' src={compact} alt="compact" />
               <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Trading</h3>
               <p className='px-[30px] md:px-[40px] h-full '> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>

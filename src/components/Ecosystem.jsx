@@ -7,7 +7,7 @@ import mindchain from '../assets/mindchain-token.svg'
 import bitnetwork from '../assets/bitnetwork.svg'
 import bitmining from '../assets/bitmining.svg'
 import blockchainblocks from '../assets/blockchain-blocks.svg'
-import post3 from '../assets/post3.svg'
+import post3 from '../assets/images/media/post3.svg'
 
 
 const Ecosystem = () => {
@@ -52,7 +52,7 @@ const Ecosystem = () => {
                 <div className="w-full md:w-3/6 text-center md:text-start">
                     <div className="flex gap-2 justify-center md:justify-start items-center pb-[50px]">
                         <img className='w-[40px]' src={bitmining} alt="bitmining" />
-                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[18%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Our Ambassador Program</h2>
+                        <h2 className='font-cabin font-semibold text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[10%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Our Ambassador Program</h2>
                     </div>
                     <p className='sm:pr-0 md:pr-[100px] pb-[30px] px-[30px] md:px-0 text-center md:text-start'>
                         Ambassadors are passionate members of the crypto world who help connect as Ambassadors. Mindhain Ambassadors will receive daily staking, network & affiliate bonuses. There is also the benefit of MIND public exchanger. 

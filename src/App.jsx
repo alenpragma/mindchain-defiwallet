@@ -7,7 +7,8 @@ import ICO from './components/ICO'
 import Tracking from './components/Tracking'
 import Team from './components/Team'
 import Advisors from './components/Advisors'
-// import FAQ from './components/FAQ'
+import FAQ from './components/FAQ'
+import Media from './components/Media'
 
 
 
@@ -24,7 +25,9 @@ function App() {
     <Tracking />
     <Team />
     <Advisors />
-    {/* <FAQ /> */}
+    <FAQ />
+    <Media />
+    <Partner />
     </>
   )
 }
