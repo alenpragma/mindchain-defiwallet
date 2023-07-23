@@ -42,7 +42,7 @@ const Start = () => {
         <img className='absolute top-[0] right-[-1821px] rotate-[221deg] z-[100] w=[60%] hidden lg:block' src={solorShape} alt="solorShape" />
         
         <div className="box text-center text-white">
-          <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-4 px-11 uppercase ml-[10px]  text-white rounded-full hover:bg-[#dea029] animate-jump-in animate-twice animate-delay-1000 animate-ease-out'>Buy Package</button>
+          <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-4 px-11 uppercase ml-[10px]  text-white rounded-full hover:bg-[#dea029] animate-jump-in animate-twice animate-delay-1000 animate-ease-out'>Join Our Program</button>
           <p className='py-[20px] text-[#BCB3CC]'>We Accept</p>
           <div className="flex justify-center gap-3 pb-[100px]">
             <div className="">
@@ -65,12 +65,12 @@ const Start = () => {
           <div className="flex flex-col md:flex-row justify-center gap-y-[50px]">
             <div className="w-full md:w-1/3 hover:translate-y-[-20px] duration-700 hover:cursor-pointer" ref={startRight}>
               <img className='w-[100px] inline-block' src={chained} alt="chained" />
-              <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Mining</h3>
+              <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Staking</h3>
               <p className='px-[30px] md:px-[40px] h-full '> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
             </div>
             <div className="w-full md:w-1/3 hover:translate-y-[-20px] duration-700 hover:cursor-pointer">
               <img className='w-[100px] inline-block' src={stacked} alt="stacked" />
-              <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Staking</h3>
+              <h3 className='font-cabin font-semibold text-[16px] py-[10px]'>Farming</h3>
               <p className='px-[30px] md:px-[40px] h-full '> For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available. </p>
             </div>
             <div className="w-full md:w-1/3 hover:translate-y-[-20px] duration-700 hover:cursor-pointer">
