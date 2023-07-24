@@ -9,8 +9,8 @@ import Team from './components/Team'
 import Advisors from './components/Advisors'
 import FAQ from './components/FAQ'
 import Media from './components/Media'
-// import Contact from './components/Contact'
-// import Footer from './components/Footer'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 
@@ -30,8 +30,8 @@ function App() {
     <FAQ />
     <Media />
     <Partner />
-    {/* <Contact /> */}
-    {/* <Footer /> */}
+    <Contact />
+    <Footer />
     </>
   )
 }

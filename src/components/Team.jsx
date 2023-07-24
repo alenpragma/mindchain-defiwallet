@@ -15,12 +15,15 @@ import teamMemberNineImg from '../assets/images/team/sandra.svg'
 import teamMemberTenImg from '../assets/images/team/sandra.jpg'
 import teamMemberElevenImg from '../assets/images/team/sara.svg'
 import teamMemberTwelveImg from '../assets/images/team/sara.jpg'
+import solorShape from '../assets/solar.svg'
 
 
 const Team = () => {
   return (
-    <section className='bg-lightBlue pb-[60px] md:pb-[150px]'>
+    <section className='bg-lightBlue pb-[60px] md:pb-[150px] relative'>
         <Container>
+        <img className='absolute bottom-[11%] left-[-284px] origin-center rotate-[210deg] w-[48%] z-[100] hidden lg:block' src={solorShape} alt="solorShape" />
+
            <div className="w-full">
            <div className="text-center w-3/4 mx-auto">
                 <h2 className='font-cabin font-semibold text-[32px] relative before:absolute before:w-[75px] before:h-[3px] before:bg-primary before:content-[""] before:top-[-34%] before:left-[50%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>Our Team</h2>
