@@ -44,8 +44,8 @@ const Ecosystem = () => {
                     </div>
                     <p className='sm:pr-0 md:pr-[40px] px-[30px] md:px-0 pb-[30px]'>
                          We have also a Merchant program. Mindchain Merchant will get 10% extra bonus with MUSD staking. Merchant also can create coupons. Merchant gets lifetime validity and 24/7 usability from the company. 
-                    </p>
-                    <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Whitepaper</button>
+                    </p><button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Whitepaper</button>
+                    
                 </div>
             </div>
             <div className="flex flex-col md:flex-row gap-y-[35px] md:gap-y-0">
