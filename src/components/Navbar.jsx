@@ -28,14 +28,14 @@ const Navbar = () => {
         {mobile &&
           <div className="xs:block w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-x-2 text-end  md:justify-end">
           <ul className='flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center'>
-            <li className=''><a href="#">Mindchain Coin</a></li>
+            <li className=''><a href="https://www.mindchain.info/">Mindchain Coin</a></li>
             <li className='' ><a href="#">pMIND</a></li>
             <li className='' ><a href="#">Roadmap</a></li>
             <li className='' ><a href="#">News</a></li>
             <li className='' ><a href="#">
               <BiLogoTelegram className='hidden lg:inline' /> telegram</a></li>
           </ul>
-          <button className=' px-0 md:px-7 uppercase ml-0 md:ml-[10px] relative z-[1] md:before:absolute md:before:z-[-1] md:before:w-[115px] lg:before:w-[120px] md:before:h-[39px] md:before:skew-x-[-19deg] md:before:bg-gradient-to-r md:before:from-[#FFBF5E] md:before:bg-primary md:before:content-[""] md:before:top-[40%] md:before:left-[53%] md:before:rounded text-center  md:text-start hidden md:block before:translate-y-[-50%] before:translate-x-[-50%]'>Register</button>
+          <button className=' px-0 md:px-7 uppercase ml-0 md:ml-[10px] relative z-[1] md:before:absolute md:before:z-[-1] md:before:w-[115px] lg:before:w-[120px] md:before:h-[39px] md:before:skew-x-[-19deg] md:before:bg-gradient-to-r md:before:from-[#FFBF5E] md:before:bg-primary md:before:content-[""] md:before:top-[40%] md:before:left-[53%] md:before:rounded text-center  md:text-start hidden md:block before:translate-y-[-50%] before:translate-x-[-50%]'><a href="http://mindchainwallet.com/register">Register</a></button>
           </div>
         }
         {show &&
@@ -46,7 +46,7 @@ const Navbar = () => {
             <li className='' ><a href="#">pMIND</a></li>
             <li className='' ><a href="#">Roadmap</a></li>
             <li className='' ><a href="#">News</a></li>
-            <li className='' ><a href="#">
+            <li className='' ><a href="https://t.me/mindchainMIND">
               <BiLogoTelegram className='hidden lg:inline' /> telegram</a></li>
           </ul>
           
