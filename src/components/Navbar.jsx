@@ -28,7 +28,7 @@ const Navbar = () => {
         {mobile &&
           <div className="xs:block w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-x-2 text-end  md:justify-end">
           <ul className='flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center'>
-            <li className=''><a href="https://www.mindchain.info/">Mindchain Coin</a></li>
+            <li className=''><a href="https://www.mindchain.info">Mindchain Coin</a></li>
             <li className='' ><a href="#">pMIND</a></li>
             <li className='' ><a href="#">Roadmap</a></li>
             <li className='' ><a href="#">News</a></li>
