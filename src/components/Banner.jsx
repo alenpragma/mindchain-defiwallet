@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Banner = () => {
 
   const banneLeft = useRef(null)
-  
+
   useEffect(()=>{
     //  animation
     const banel = banneLeft.current
@@ -45,8 +45,8 @@ const Banner = () => {
                     <h1 className='font-cabin font-semibold text-[35px] md:text-5xl leading-[1.125]'> Next Generation Blockchain Ecosystem </h1>
                     <p className='font-cabin font-ligt text-xl py-[25px] px-[30px] md:px-0 pb-[30px]'> Our mission is to build a Global Decentralized Ecosystem to cover all areas of the world using multiple blockchain technologies along with the Mindchain Ecosystem.</p>
                     <div className="flex flex-col md:flex-row gap-3 md:w-full mx-auto md:mx-0">
-                        <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-[5px] lg:py-4 md:px-7 uppercase rounded hover:bg-[#dea029] flex-none w-[200px] lg:w-[50%] mx-auto'>Get Started</button>
-                        <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-[5px] lg:py-4 md:px-11 uppercase rounded hover:bg-[#dea029] flex-none w-[200px] lg:w-[50%] mx-auto'>Login</button>
+                        <button  className=''><a className=' bg-gradient-to-r from-[#FFBF5E] bg-primary py-[5px] lg:py-4 md:px-7 uppercase rounded hover:bg-[#dea029] flex-none w-[200px] lg:w-[50%] mx-auto' href="https://my.mindchainwallet.com/register">Get Started</a></button>
+                        <button  className=''><a className=' bg-gradient-to-r from-[#FFBF5E] bg-primary py-[5px] lg:py-4 md:px-11 uppercase rounded hover:bg-[#dea029] flex-none w-[200px] lg:w-[50%] mx-auto' href="https://my.mindchainwallet.com/login">Login</a></button>
                     </div>
                 </div>
                 <div className="md:w-[50%] relative text-end hidden md:block" ref={banneLeft}>
