@@ -5,10 +5,10 @@ import Container from './layouts/Container';
 // images
 import partnerImg_1 from '../assets/images/partner/mindchain acadeny.svg'
 import partnerImg_2 from '../assets/images/partner/mindchain logo.svg'
-import partnerImg_3 from '../assets/images/partner/mindchainwallet.svg'
+import partnerImg_3 from '../assets/images/partner/wallet.png'
 import partnerImg_4 from '../assets/images/partner/mindpay.svg'
-import partnerImg_5 from '../assets/images/partner/mindscan logo.svg'
-import partnerImg_6 from '../assets/images/partner/musd logo.svg'
+import partnerImg_5 from '../assets/images/partner/MindScan.png'
+import partnerImg_6 from '../assets/images/partner/MUSD LOGO.png'
 
 
 
