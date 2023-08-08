@@ -31,7 +31,7 @@ const ICO = () => {
             </div>
             <Tabs className=" px-0 md:px-[100px] text-[15px] md:text-[18px] ">
                 <TabList className="flex justify-center">
-                <Tab >PMIND</Tab>
+                <Tab >LAUNCHPAD</Tab>
                 <Tab>STAKING</Tab>
                 <Tab>MARCHENT</Tab>
                 <Tab>AMBASSADOR</Tab>
@@ -40,7 +40,7 @@ const ICO = () => {
                 <TabPanel>
                     <div className="flex flex-col md:flex-row pt-[60px]">
                         <div className=" w-full md:w-2/4 pb-[40px] md:pb-[0]">
-                            <h2 className='font-cabin font-normal pb-[30px]'>PMIND Details</h2>
+                            <h2 className='font-cabin font-normal pb-[30px]'>Perry Mind Token (PMIND)</h2>
                             <div className="flex flex-col gap-[15px]">
                                 <div>
                                     <h3 className='font-cabin font-light'>Presale</h3>
