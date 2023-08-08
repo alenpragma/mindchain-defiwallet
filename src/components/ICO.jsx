@@ -93,7 +93,7 @@ const ICO = () => {
                                 </div>
                                 
                                <div className="flex justify-center">
-                               <button className=' bg-gradient-to-r from-[#DEA83C] text-[10px] md:text-[18px] bg-primary text-white py-[10px] lg:py-2 px-3 md:px-7 mt-[20px] uppercase rounded-full hover:bg-[#dea029]'>Join the ICO Now</button>
+                               <button className=' bg-gradient-to-r from-[#DEA83C] text-[10px] md:text-[18px] bg-primary text-white py-[10px] lg:py-2 px-3 md:px-7 mt-[20px] uppercase rounded-full hover:bg-[#dea029]'>Join Lunchpad</button>
                                </div>
 
                             </div>
