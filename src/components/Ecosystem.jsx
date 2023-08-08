@@ -44,7 +44,7 @@ const Ecosystem = () => {
                     </div>
                     <p className='sm:pr-0 md:pr-[40px] px-[30px] md:px-0 pb-[30px]'>
                          We have also a Merchant program. Mindchain Merchant will get 10% extra bonus with MUSD staking. Merchant also can create coupons. Merchant gets lifetime validity and 24/7 usability from the company. 
-                    </p><button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Whitepaper</button>
+                    </p><button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Become Marchent</button>
                     
                 </div>
             </div>
@@ -57,7 +57,7 @@ const Ecosystem = () => {
                     <p className='sm:pr-0 md:pr-[100px] pb-[30px] px-[30px] md:px-0 text-center md:text-start'>
                         Ambassadors are passionate members of the crypto world who help connect as Ambassadors. Mindhain Ambassadors will receive daily staking, network & affiliate bonuses. There is also the benefit of MIND public exchanger. 
                     </p>
-                    <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Join the ICO</button>
+                    <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Whitepaper</button>
                 </div>
                 <div className="w-full md:w-3/6">
                     <img className='' src={post3} alt="post3" />
