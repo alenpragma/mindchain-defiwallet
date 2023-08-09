@@ -9,7 +9,7 @@ import {FaTelegramPlane} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section className='bg-lightBlue pb-[60px] py-[50px] md:py-[150px]'>
+    <section className='bg-lightBlue  py-[50px] md:py-[150px]'>
         <Container>
             <div className="w-full">
                 <div className="text-center w-3/4 mx-auto">
@@ -38,15 +38,15 @@ const Contact = () => {
                 <div className="flex flex-col gap-y-[50px] justify-center items-center w-full">
                 
                     <div className="flex flex-col w-full md:w-[50%]">
-                        <label className='font-cabin font-normal text-[18px]' htmlFor="">Name</label>
+                        <label className='font-cabin font-normal text-[18px] text-white' htmlFor="">Name</label>
                         <input className='w-[100%] pt-[] outline-none bg-lightBlue border-b-[#d1d1d12d] border-x-0 border-y-0 border-b-[1px] focus:border-b-[2px]  focus:border-b-[#0DF3B2] focus:duration-700 focus:ring-transparent' type="text" required />
                     </div>
                     <div className="flex flex-col w-full md:w-[50%]">
-                        <label className='font-cabin font-normal text-[18px]' htmlFor="">Email</label>
+                        <label className='font-cabin font-normal text-[18px] text-white' htmlFor="">Email</label>
                         <input className='w-[100%] pt-[] outline-none bg-lightBlue border-b-[#d1d1d12d] border-x-0 border-y-0 border-b-[1px] focus:border-b-[2px]  focus:border-b-[#0DF3B2] focus:duration-700 focus:ring-transparent' type="email" required />
                     </div>
                     <div className="flex flex-col w-full md:w-[50%]">
-                        <label className='font-cabin font-normal text-[18px]' htmlFor="">Message</label>
+                        <label className='font-cabin font-normal text-[18px] text-white' htmlFor="">Message</label>
                         <input className='w-[100%] pt-[] outline-none bg-lightBlue border-b-[#d1d1d12d] border-x-0 border-y-0 border-b-[1px] focus:border-b-[2px]  focus:border-b-[#0DF3B2] focus:duration-700 focus:ring-transparent' type="text" required  />
                     </div>
 

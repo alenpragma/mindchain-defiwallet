@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
+import {Link} from "react-router-dom"
 
 import Container from './layouts/Container'
 import { BiLogoTelegram } from 'react-icons/bi'
@@ -17,7 +18,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='bg-lightBlue py-5 text-white absolute w-full z-10 animate-fade-down animate-once'>
+    <nav className='bg-lightBlue  py-5 text-white relative w-full z-10 animate-fade-down animate-once'>
       <Container>
       <div className="flex flex-col md:flex-row gap-y-[40px] md:gap-y-0 justify-between relative">
         <div className="w-full lg:w-1/4">
@@ -28,10 +29,11 @@ const Navbar = () => {
         {mobile &&
           <div className="xs:block w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-x-2 text-end  md:justify-end">
           <ul className='flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center'>
-            <li className=''><a href="https://www.mindchain.info">Mindchain Coin</a></li>
-            <li className='' ><a href="#">pMIND</a></li>
-            <li className='' ><a href="#">Roadmap</a></li>
-            <li className='' ><a href="#">News</a></li>
+            <li className=''><Link href="https://www.mindchain.info">Mindchain Coin</Link></li>
+            <li className='' ><Link href="#">pMIND</Link></li>
+            <li className='' ><Link href="#">Roadmap</Link></li>
+            <li className='' ><Link href="#">News</Link></li>
+            <li className='' ><Link to="CoinMarket">Market Coin</Link></li>
             <li className='' ><a href="#">
               <BiLogoTelegram className='hidden lg:inline' /> telegram</a></li>
           </ul>
@@ -42,12 +44,13 @@ const Navbar = () => {
         <div className=" min-[0px]:hidden md:blcok w-full md:w-3/4 md:flex flex-col md:flex-row md:items-center gap-x-2 text-end   md:justify-end ">
           
           <ul className=' flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center'>
-            <li className=''><a href="https://www.mindchain.info">Mindchain Coin</a></li>
-            <li className='' ><a href="#">pMIND</a></li>
-            <li className='' ><a href="#">Roadmap</a></li>
-            <li className='' ><a href="#">News</a></li>
-            <li className='' ><a href="https://t.me/mindchainMIND">
-              <BiLogoTelegram className='hidden lg:inline' /> telegram</a></li>
+            <li className=''><Link href="https://www.mindchain.info">Mindchain Coin</Link></li>
+            <li className='' ><Link href="#">pMIND</Link></li>
+            <li className='' ><Link href="#">Roadmap</Link></li>
+            <li className='' ><Link href="#">News</Link></li>
+            <li className='' ><Link to="CoinMarket">Market Coin</Link></li>
+            <li className='' ><Link href="https://t.me/mindchainMIND">
+              <BiLogoTelegram className='hidden lg:inline' /> telegram</Link></li>
           </ul>
           
          
