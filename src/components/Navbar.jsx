@@ -33,7 +33,7 @@ const Navbar = () => {
             <li className='' ><Link href="#">pMIND</Link></li>
             <li className='' ><Link href="#">Roadmap</Link></li>
             <li className='' ><Link href="#">News</Link></li>
-            <li className='' ><Link to="CoinMarket">Market Coin</Link></li>
+            <li className='' ><Link to="CoinMarket">Coin Market</Link></li>
             <li className='' ><a href="#">
               <BiLogoTelegram className='hidden lg:inline' /> telegram</a></li>
           </ul>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li className='' ><Link href="#">pMIND</Link></li>
             <li className='' ><Link href="#">Roadmap</Link></li>
             <li className='' ><Link href="#">News</Link></li>
-            <li className='' ><Link to="CoinMarket">Market Coin</Link></li>
+            <li className='' ><Link to="CoinMarket">Coin Market</Link></li>
             <li className='' ><Link href="https://t.me/mindchainMIND">
               <BiLogoTelegram className='hidden lg:inline' /> telegram</Link></li>
           </ul>

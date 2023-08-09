@@ -38,22 +38,22 @@ const Market = () => {
                   {
                     marketdata.map((item, index)=>(
                       <li key={index}>
-                        <div className="flex items-center justify-between pb-[20px]">
+                        <div className="w-full flex items-center justify-between pb-[20px] gap-x-[1rem] ">
                           <div className="w-[20%] flex gap-x-2 items-center">
                               <img className='w-[30px] h-[30px]' src={item.image} alt="" />
-                              <h3 className='font-lato font-semibold md:text-[16px] sm:text-[12px]'>{item.name}</h3>
+                              <h3 className='font-lato font-semibold sm:text-[12px] md:text-[16px] '>{item.name}</h3>
                           </div>
-                          <div className="w-[15%] pl-[3.25rem]">
-                            <p className='m-0 font-lato font-semibold md:text-[16px] sm:text-[12px]'>${item.current_price}</p>
+                          <div className="w-[15%]">
+                            <p className='m-0 font-lato font-semibold sm:text-[12px] md:text-[16px] '>${item.current_price}</p>
                           </div>
-                          <div className="w-[15%] pl-[6.25rem]">
-                            <h3 className='font-lato font-semibold md:text-[16px] sm:text-[12px]'>{item.market_cap_change_percentage_24h}%</h3>
+                          <div className="w-[15%]">
+                            <h3 className='font-lato font-semibold sm:text-[12px] md:text-[16px] '>{item.market_cap_change_percentage_24h}%</h3>
                           </div>
-                          <div className="w-[15%] ml-[6.25rem]">
+                          <div className="w-[15%]">
                             <h2>{item.market_cap}</h2>
                           </div>
-                          <div className="w-[15%] pl-[3.25rem]">
-                            <h3 className='font-lato font-semibold md:text-[16px] sm:text-[12px]'>${item.total_volume}</h3>
+                          <div className="w-[15%]">
+                            <h3 className='font-lato font-semibold sm:text-[12px] md:text-[16px] '>${item.total_volume}</h3>
                           </div>
                         
                         </div>
