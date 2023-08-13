@@ -142,13 +142,13 @@ const AddMscNetwork = () => {
   };
 
   return (
-    <section className="bg-lightBlue pb-[2rem]">
+    <section className="bg-lightBlue pb-[150px]">
       <div className="flex justify-center pt-1 pb-5">
       <button
         id="addChainButton"
         onClick={addCustomChain}
         disabled={status === "adding" || status === "success"}
-        className=" bg-gradient-to-r from-[#FFBF5E] bg-primary uppercase rounded hover:bg-[#dea029] text-white duration-200 flex font-semibold gap-x-2 items-center px-4 py-2"
+        className=" bg-gradient-to-r from-[#FFBF5E] bg-primary uppercase rounded hover:bg-[#dea029] text-white duration-200 flex font-semibold gap-x-2 items-center px-4 py-[0.4rem]"
       >
         <img src="https://i.postimg.cc/wTNbsthM/image.png" alt="" className="w-[30px] h-[30px]"/>
         {status === "idle" && "Add MINDCHAIN"}
