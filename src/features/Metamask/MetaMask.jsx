@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import detectEthereumProvider from '@metamask/detect-provider';
 
 const MetaMaskButton = () => {
   const [hasProvider, setHasProvider] = useState(false);
@@ -38,14 +37,14 @@ const MetaMaskButton = () => {
   <section className='bg-lightBlue'>
       <div className="container flex justify-center  py-5">
 
-        <div className="text-center   ">
+        <div className="text-center">
           {hasProvider && !isConnected && (
             <button
               className=""
               onClick={connectToMetaMask}
             >
               <img
-                className="w-8 h-8 mr-2"
+                className="mr-2"
                 src="https://i.postimg.cc/VstxKCQd/Meta-Mask-Fox-svg.png"
                 alt="MetaMask Icon"
               />
@@ -53,9 +52,9 @@ const MetaMaskButton = () => {
             </button>
           )}
           {isConnected && (
-            <p className="bg-green-500 text-white px-4 py-2 rounded shadow">
+            <p className="text-white px-4 py-2 rounded shadow">
               <img
-                className="w-8 h-8 mr-2"
+                className="mr-2"
                 src="https://i.postimg.cc/VstxKCQd/Meta-Mask-Fox-svg.png"
                 alt="MetaMask Icon"
               />

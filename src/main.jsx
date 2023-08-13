@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import RootLayout from './components/RootLayout';
+import { ToastContainer } from 'react-toastify';
 
 const router = createBrowserRouter([
   {
@@ -31,5 +32,18 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
      <RouterProvider router={router} />
+     <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        limit={1}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
   </React.StrictMode>,
 )
