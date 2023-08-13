@@ -4,6 +4,7 @@ import Container from '../components/layouts/Container'
 // images
 import bannerMainImg from '../assets/images/banner/mind-buildings 1.svg'
 
+
 import bannerOneImg from '../assets/images/banner/Group 4.svg'
 import bannerTwoImg from '../assets/images/banner/Group 16.svg'
 import bannerThreeImg from '../assets/images/banner/Group 10.svg'
@@ -50,11 +51,13 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="md:w-[50%] relative text-end hidden md:block" ref={banneLeft}>
+                  
                     <img className=' inline w-full' src={bannerMainImg} alt="bannerMainImg" />
                     <img className=' w-[10%] upDown-animation_1 absolute top-[15%] left-[28%] translate-x-[-50%] translate-y-[-50%]' src={bannerOneImg} alt="bannerMainImg" />
                     <img className=' inline upDown-animation_2 w-[10%] absolute top-[34%] right-[50%] translate-x-[-50%] translate-y-[-50%]' src={bannerTwoImg} alt="bannerMainImg" />
                     <img className=' inline upDown-animation_3 w-[10%] absolute top-[13%] right-[33%] translate-x-[-50%] translate-y-[-50%]' src={bannerThreeImg} alt="bannerMainImg" />
-                    <img className=' inline upDown-animation_4 w-[10%] absolute top-[-2%] right-[24%] translate-x-[-50%] translate-y-[-50%]' src={bannerFourImg} alt="bannerMainImg" />                </div>
+                    <img className=' inline upDown-animation_4 w-[10%] absolute top-[-2%] right-[24%] translate-x-[-50%] translate-y-[-50%]' src={bannerFourImg} alt="bannerMainImg" />
+                 </div>
             </div>
         </Container>
     </section>
