@@ -67,12 +67,11 @@ const AddMscNetwork = () => {
       });
 
       setStatus("success");
-      
       notify("Custom chain added to MetaMask.")
       
     } catch (error) {
       setStatus("error");
-      // notify("Failed to add custom chain to MetaMask. Error: ")
+      notify("Failed to add custom chain to MetaMask..")
       
     }
   };
@@ -86,20 +85,21 @@ const AddMscNetwork = () => {
       <button
         id="addChainButton"
         onClick={addCustomChain}
-        disabled={status === "adding" || status === "success"}
+        // disabled={status === "adding" || status === "success"}
         className=" bg-gradient-to-r from-[#FFBF5E] bg-primary uppercase rounded hover:bg-[#dea029] text-white duration-200 flex font-semibold gap-x-2 items-center px-4 py-[0.4rem]"
       >
         <img src="https://i.postimg.cc/wTNbsthM/image.png" alt="" className="w-[30px] h-[30px]"/>
-        {status === "idle" && "Add MINDCHAIN"}
+        Add MINDCHAIN
+        {/* {status === "idle" && "Add MINDCHAIN"}
         {status === "adding" && "Adding..."}
         {status === "success" && "Added Successfully"}
-        {status == "error" && "Addition Failed"}
+        {status == "error" && "Add MINDCHAIN"} */}
       </button>
-
+      
+      {/* {status === "success" && "Added Successfully"} */}
       
       
     </div>
-    
     </section>
   );
 };
