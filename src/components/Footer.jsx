@@ -2,7 +2,7 @@ import React from 'react'
 
 import Container from '../components/layouts/Container'
 import Metamask from "../features/Metamask/MetaMask";
-import AddMscNetwork from "../features//AddMscNetwork/AddMscNetwork";
+import AddMscNetwork from "../features/AddMscNetwork/AddMscNetwork";
 
 
 // images
@@ -12,9 +12,9 @@ import ShapeImg from '../assets/solar.svg'
 
 const Footer = () => {
   return (
-    <section className='bg-lightBlue text-white pb-[100px] relative'>
+    <section className='bg-lightBlue text-white pb-[100px] relative '>
         <Container>
-          <img className='absolute top-[0%] right-[-32%] w-[100%] h-[100%] hidden lg:block' src={ShapeImg} alt="ShapeImg" />
+          <img className='absolute top-[0%] right-[-22%] w-[50%] h-[100%] hidden lg:block' src={ShapeImg} alt="ShapeImg"/>
             <div className="w-full text-center">
                 <div className="flex flex-col items-center  pb-[40px]">
                   <img className='w-[5%] animate-spin origin-center' src={footerImg} alt="footerImg" />
