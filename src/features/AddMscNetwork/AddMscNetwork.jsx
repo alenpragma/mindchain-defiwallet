@@ -74,14 +74,15 @@ const AddMscNetwork = () => {
       notify("Failed to add custom chain to MetaMask..")
       
     }
+    
   };
 
   
 
  
   return (
-    <section className="bg-lightBlue pb-[150px]">
-      <div className="flex justify-center pt-1 pb-5">
+    <section className="bg-lightBlue ">
+      <div className="flex justify-center pt-1">
       <button
         id="addChainButton"
         onClick={addCustomChain}

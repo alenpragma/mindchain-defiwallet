@@ -10,8 +10,8 @@ import Advisors from '../components/Advisors'
 import FAQ from '../components/FAQ'
 import Media from '../components/Media'
 import Contact from '../components/Contact'
-import Metamask from "../features/Metamask/MetaMask";
-import AddMscNetwork from "../features//AddMscNetwork/AddMscNetwork";
+// import Metamask from "../features/Metamask/MetaMask";
+// import AddMscNetwork from "../features//AddMscNetwork/AddMscNetwork";
 
 
 
@@ -32,8 +32,8 @@ function Home() {
       <Media />
       <Partner />
       <Contact />
-      <Metamask/>
-     <AddMscNetwork/>
+      {/* <Metamask/> */}
+     {/* <AddMscNetwork/> */}
       
       </>
     )

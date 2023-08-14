@@ -1,6 +1,9 @@
 import React from 'react'
 
 import Container from '../components/layouts/Container'
+import Metamask from "../features/Metamask/MetaMask";
+import AddMscNetwork from "../features//AddMscNetwork/AddMscNetwork";
+
 
 // images
 import footerImg from '../assets/images/footer/mind-krypton-gradient.svg'
@@ -41,7 +44,11 @@ const Footer = () => {
                       </ul>
                   </div>
                </div>
-               <div className="pt-[60px]">
+               <div className="">
+                <Metamask/>
+                <AddMscNetwork/>
+               </div>
+               <div className="pt-[40px]">
                 <p className='text-[#7945b9] pb-[20px]'>© 2022-2025 | Mindchain. All Rights Reserved</p>
                 <p className=''>Developed by <a className="text-[#0AF5AE]" href="#">Mindchain Team</a></p>
                </div>
