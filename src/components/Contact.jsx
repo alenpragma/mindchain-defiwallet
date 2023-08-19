@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="w-full">
                 <div className="text-center w-3/4 mx-auto">
                     <h2 className='font-cabin font-semibold text-[32px] relative before:absolute before:w-[75px] before:h-[3px] before:bg-primary before:content-[""] before:top-[-34%] before:left-[50%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'> Get in Touch </h2>
-                    <p className='font-cabin font-normal text-[18px] pt-[30px] md:px-[100px] pb-[50px] mx-auto'> Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Ut sea pertinax perpetua, eruditi volumus quaestio ex mel, has ei tota homero.  </p>
+                    <p className='font-cabin font-normal text-[18px] pt-[30px] md:px-[100px] pb-[50px] mx-auto'> Get 24/7 chat support with our friendly customer service agents at your service. Discover all the apps and projects in the Mindchain ecosystem.  </p>
                 </div>
 
                 <div className="flex justify-center md:justify-between gap-x-[40px] md:gap-x-0 w-[50%] mx-auto pb-[50px]">
