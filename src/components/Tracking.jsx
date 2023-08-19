@@ -27,7 +27,7 @@ const Tracking = () => {
                         <h2 className='font-cabin font-semibold text-[18px] md:text-[24px] relative before:absolute before:w-[150px] before:h-[3px] before:bg-primary before:content-[""] before:bottom-[-81%] before:left-[9%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10 '>Protected by the MIND.</h2>
                     </div>
                     <p className='sm:pr-0 md:pr-[100px] md:px-0 pb-[30px] px-[50px]'>In return for securing the services on the Mindchain DeFi wallet, transaction fees and staking rewards are distributed to MIND stakers. </p>
-                    <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'>Download App</button>
+                    <button className='bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'><a href="https://mindchain.info">Explore Mindchain</a></button>
                 </div>
                 <div className="w-full md:w-3/6">
                     <img className="" src={mindkryptonappImg} alt="mindkryptonappImg" />
