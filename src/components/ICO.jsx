@@ -27,7 +27,7 @@ const ICO = () => {
         <Container>
             <div className="text-center w-3/4 mx-auto">
                 <h2 className='font-cabin font-semibold text-[32px] relative before:absolute before:w-[75px] before:h-[3px] before:bg-primary before:content-[""] before:top-[-34%] before:left-[50%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>Learn About Mindchain</h2>
-                <p className='font-cabin font-normal text-[18px] pt-[30px] md:px-[100px] pb-[50px] mx-auto'>  Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Ut sea pertinax perpetua, eruditi volumus quaestio ex mel, has ei tota homero.</p>
+                <p className='font-cabin font-normal text-[18px] pt-[30px] md:px-[100px] pb-[50px] mx-auto'>  At Mindchain, we believe that everyone should have the freedom to earn, hold, spend, share and give their money - no matter who you are or where you come from.</p>
             </div>
             <Tabs className=" px-0 md:px-[100px] text-[15px] md:text-[18px] ">
                 <TabList className="flex justify-center">
@@ -103,19 +103,20 @@ const ICO = () => {
                 <TabPanel>
                     <div className="flex pt-[50px]">
                         <div className="w-2/4">
-                            <h2 className='font-cabin font-normal pb-[30px]'> Mind TOKEN RATES </h2>
+                            <h2 className='font-cabin font-normal pb-[30px]'> MIND Staking Details </h2>
+                            <h3 className='font-cabin font-light'>The easy way to Deposit & Earn</h3>
                             <div className="flex flex-col gap-[15px]">
                                 <div>
-                                    <h3 className='font-cabin font-light'> Tokens Sales </h3>
-                                    <p className='font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]'> 1 200 000 Mind (22%) </p>
+                                    <h3 className='font-cabin font-light'> Minimum Staking MIND </h3>
+                                    <p className='font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]'> 100 Mindchain Coin (22%) </p>
                                 </div>
                                 <div>
-                                    <h3 className='font-cabin font-light'>   Token Exchange   </h3>
-                                    <p className='font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]'>  1 BTC = 2200 Mind, 1 ETH = 825 KP </p>
+                                    <h3 className='font-cabin font-light'>   Maximum Staking MIND   </h3>
+                                    <p className='font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]'>  50000 Mindchain Coin </p>
                                 </div>
                                 <div>
-                                    <h3 className='font-cabin font-light'>  Transations  </h3>
-                                    <p className='font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]'> Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC </p>
+                                    <h3 className='font-cabin font-light'>  Duration  </h3>
+                                    <p className='font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]'> Staking Earn allows users to earn daily rewards by staking their Mindchain Coin for Flexible or Fixed terms. </p>
                                 </div>
                             </div>
                         </div>
