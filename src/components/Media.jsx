@@ -106,7 +106,7 @@ const Media = () => {
                     </div>
 
                     <div className="text-center pt-[50px]">
-                        <button className=' bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'><a href="https://academy.mindchain.info/">More Articles</a></button></button>
+                        <button className=' bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]'><a href="https://academy.mindchain.info/">More Articles</a></button>
                     </div>
                 </div>
 
