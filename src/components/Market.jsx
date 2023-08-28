@@ -12,12 +12,9 @@ const Market = () => {
             let markers = await axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd")
             setMarketdata(markers.data)
             console.log(Market)
-            
         }
         market()
     },[])
-
-    console.log(marketdata)
 
   return (
     <section className='bg-lightBlue py-[100px]'>

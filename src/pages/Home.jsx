@@ -13,6 +13,8 @@ import Contact from '../components/Contact'
 // import Metamask from "../features/Metamask/MetaMask";
 // import AddMscNetwork from "../features//AddMscNetwork/AddMscNetwork";
 
+import MindchainStats from "../components/MindchainStats"
+
 
 
 function Home() {
@@ -32,6 +34,7 @@ function Home() {
       <Media />
       <Partner />
       <Contact />
+      <MindchainStats />
       {/* <Metamask/> */}
      {/* <AddMscNetwork/> */}
       
