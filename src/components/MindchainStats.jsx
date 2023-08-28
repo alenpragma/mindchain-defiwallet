@@ -22,7 +22,7 @@ const MindchainStats = () => {
         <Container>
             <div className="text-center pb-[40px]">
                 <h2 className="font-cabin text-[32px] font-semibold pb-[15px]" >Mindchain</h2>
-                <p className='font-cabin font-normal text-[24px]'>Check out the least data on Mindchain</p>
+                <p className='font-cabin font-normal text-[24px]'>Check out the Latest data on Mindchain</p>
             </div>
            <div className="flex flex-col gap-y-[25px] md:gap-0 md:flex-row pt-[40px]">
                 <div className="text-center w-full md:w-[25%]">
