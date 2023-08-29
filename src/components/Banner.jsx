@@ -39,7 +39,7 @@ const Banner = () => {
     <section className='bg-lightBlue text-white relative'>
 
         <Container>
-        <img className='absolute top-[-104%] left-[-54%]  w-[68%] rotate-[60deg] z-[10] hidden lg:block' src={solorShape} alt="solorShape" />
+        <img className='absolute top-[-104%] left-[-54%]  w-[68%] rotate-[60deg]  hidden lg:block' src={solorShape} alt="solorShape" />
             <div className="flex justify-between items-center pt-[170px] pb-[90px] w-full animate-fade-down animate-once">
             
                 <div className="w-full md:w-[35%] text-center md:text-start ">
