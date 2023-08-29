@@ -18,13 +18,13 @@ const Navbar = () => {
 
 
   return (
-    <nav className='bg-lightBlue  py-5 text-white relative w-full z-10 animate-fade-down animate-once'>
+    <nav className='bg-lightBlue  py-5 text-white relative w-full animate-fade-down animate-once'>
       <Container>
-      <div className="flex flex-col md:flex-row gap-y-[40px] md:gap-y-0 justify-between relative">
-        <div className="w-full lg:w-1/4">
+      <div className="flex flex-col md:flex-row gap-y-[40px] md:gap-y-0 justify-between relative ">
+        <a className="w-full lg:w-1/4" href='https://www.mindchainwallet.com'>
             <img className='w-9 inline-block animate-spin origin-center' src={navicon} alt="icon" />
             <span className='pl-2 lg:pl-4 font-cabin font-semibold text-[13px]lg:text-[19px] tracking-widest'>MINDCHAINWALLET</span>
-        </div>
+        </a>
         <div className="block md:hidden absolute top-[5px] right-[15px] text-[35px] cursor-pointer" onClick={()=> setMobile(!mobile)}>{ !mobile ? <FaBars />    :  <AiOutlineClose/>}</div>
         {mobile &&
           <div className="xs:block w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-x-2 text-end  md:justify-end">
@@ -58,7 +58,7 @@ const Navbar = () => {
           </ul>
           
          
-          <button className=' px-0 md:px-7 uppercase ml-0 md:ml-[10px] relative z-[1] md:before:absolute md:before:z-[-1] md:before:w-[115px] lg:before:w-[120px] md:before:h-[39px] md:before:skew-x-[-19deg] md:before:bg-gradient-to-r md:before:from-[#FFBF5E] md:before:bg-primary md:before:content-[""] md:before:top-[40%] md:before:left-[53%] md:before:rounded text-center  md:text-start hidden md:block before:translate-y-[-50%] before:translate-x-[-50%]'>Register</button>
+          <a className=' px-0 md:px-7 uppercase ml-0 md:ml-[10px] relative z-[1] md:before:absolute md:before:z-[-1] md:before:w-[115px] lg:before:w-[120px] md:before:h-[39px] md:before:skew-x-[-19deg] md:before:bg-gradient-to-r md:before:from-[#FFBF5E] md:before:bg-primary md:before:content-[""] md:before:top-[40%] md:before:left-[53%] md:before:rounded text-center  md:text-start hidden md:block before:translate-y-[-50%] before:translate-x-[-50%]' href="https://my.mindchainwallet.com/register">Register</a>
           </div>
          }
       </div>
