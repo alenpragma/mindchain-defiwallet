@@ -42,11 +42,6 @@ const Blog = () => {
       title: "Complete every step to get extra 20 BMIND",
       link: "",
     },
-    {
-      title:
-        "Visit https://Mindchain.info  and remark about Mindchain ecosystem",
-      link: "",
-    },
   ];
   return (
     <section className="bg-lightBlue py-[100px]">
@@ -108,7 +103,7 @@ const Blog = () => {
               <ul className="pl-5">
                 {aridrop?.map((data, index) => (
                   <li key={index}>
-                    task {index + 1} : {data.title}:{" "}
+                    task 0{index + 1} : {data.title}:{" "}
                     <span>
                       <a className="text-blue-500" href={data.link}>
                         {data.link}
@@ -116,6 +111,15 @@ const Blog = () => {
                     </span>
                   </li>
                 ))}
+                <li>
+                task 10 : Visit{" "}
+                  <span>
+                    <a className="text-blue-500" href="https://Mindchain.info">
+                      https://Mindchain.info
+                    </a>
+                  </span>{" "}
+                  and remark about Mindchain ecosystem
+                </li>
               </ul>
             </div>
             <div className="text-white">
