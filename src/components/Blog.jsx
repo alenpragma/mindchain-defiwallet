@@ -51,10 +51,7 @@ const Blog = () => {
   return (
     <section className="bg-lightBlue py-[100px]">
       <Container>
-        <div className="text-center pb-[40px]">
-          <h2 className="font-cabin font-semibold text-[32px]">Coin Market</h2>
-        </div>
-        <div className="lg:flex justify-center">
+        <div className="lg:flex justify-center gap-10">
           <div className="lg:w-1/3 flex flex-col items-center">
             <div className="flex flex-col items-center">
               <img className="w-96 rounded" src={mindchain} alt="" />
@@ -88,7 +85,7 @@ const Blog = () => {
               </ul>
             </div>
           </div>
-          <div className="lg:w-2/3 p-10 space-y-5">
+          <div className="lg:w-2/3 space-y-5">
             <p className="text-white">
               MindBase is an Product of Mind Smart Chain Network. It’s Optimise
               first Dex of Mind20 network its called{" "}
