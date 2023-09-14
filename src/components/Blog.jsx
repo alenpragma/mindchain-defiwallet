@@ -7,46 +7,46 @@ import { FaArrowRightFromBracket } from "react-icons/fa6";
 const Blog = () => {
   const aridrop = [
     {
-      title: " Create an account on Mindchainwallet and submit UID",
-      link: "https://mindchainwallet.com",
+      title: " Create an account on Mindchainwallet and submit UID :",
+      link: "https://Mindchain.info",
     },
     {
-      title: "Go to twitter and follow Mindchain and submite username",
+      title: "Go to twitter and follow Mindchain and submite username :",
       link: "https://twitter.com/MindChain1",
     },
     {
       title: "Retweet",
-      link: "https://telegram.com/mindchain1",
-    },
-    {
-      title: "Join Telegram Channel and submite username",
-      link: ": https://tg.com/mindchain1",
-    },
-    {
-      title: "Join telegram Group and submite Username",
-      link: "https://tg.com/mindchainmind",
-    },
-    {
-      title: "Subscribe youtube",
-      link: "https://youtube.com/mindchain",
-    },
-    {
-      title: "Join our discord community",
-      link: "https://discord.com/mindchain",
-    },
-    {
-      title: "Share with friend to get extra bonus",
       link: "",
     },
     {
-      title: "Complete every step to get extra 20 BMIND",
+      title: "Join Telegram Channel and submite username :",
+      link: ":https://t.me/mindchain1",
+    },
+    {
+      title: "Join telegram Group and submite Username :",
+      link: "https://t.me/mindchainMIND",
+    },
+    {
+      title: "Subscribe youtube",
+      link: "https://youtube.com/mindchain :",
+    },
+    {
+      title: "Join our discord community :",
+      link: "https://discord.com/mindchain",
+    },
+    {
+      title: "Share with friend to get extra bonus :",
+      link: "",
+    },
+    {
+      title: "Complete every step to get extra 20 BMIND :",
       link: "",
     },
   ];
   return (
     <section className="bg-lightBlue py-[100px]">
       <Container>
-        <div className="lg:flex justify-center gap-10">
+        <div className="lg:flex justify-center gap-10 text-white">
           <div className="lg:w-1/3 flex flex-col items-center">
             <div className="flex flex-col items-center">
               <img className="w-96 rounded" src={mindchain} alt="" />
@@ -54,24 +54,24 @@ const Blog = () => {
                 <h2 className="text-yellow-500 text-2xl font-semibold">
                   MindBase (BMIND)
                 </h2>
-                <h2 className="text-white font-semibold text-2xl">
+                <h2 className=" font-semibold text-2xl">
                   Airdrop No: 02
                 </h2>
               </div>
             </div>
             <div className="mt-10">
-              <ul className="text-white">
+              <ul className="">
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
-                  <span>Airdrop Link: VISIT WEBSITE</span>
+                  <span>Start Time : <span className="text-[#E3AB41]">20-09-2023</span></span>
                 </li>
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
-                  <span>Total value: n/a</span>
+                  <span>Ending Time : <span className="text-[#E3AB41]">30-11-2023</span></span>
                 </li>
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
-                  <span>Airdrop confirmed</span>
+                  <span>Total Airdrop : 10,000,000</span>
                 </li>
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
@@ -81,7 +81,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="lg:w-2/3 space-y-5">
-            <p className="text-white">
+            <p className="">
               MindBase is an Product of Mind Smart Chain Network. It’s Optimise
               first Dex of Mind20 network its called{" "}
               <span>
@@ -93,17 +93,17 @@ const Blog = () => {
               message passing across chains. MindBAse provides authentic and
               guaranteed message delivery with configurable trustlessness.
             </p>
-            <p>
+            <p className="">
               MindBase is the Token of Mind20 network and a part of Mindchain
               Ecosystem. Users who perticipets the MindBAse Airdrop they will
               get bonus of amount 10000000 Mindbase.
             </p>
-            <div className="text-white">
+            <div className="">
               <h2 className="text-[20px] font-semibold">Step-by-Step Guide:</h2>
               <ul className="pl-5">
                 {aridrop?.map((data, index) => (
                   <li key={index}>
-                    task 0{index + 1} : {data.title}:{" "}
+                    task 0{index + 1} : {data.title}{" "}
                     <span>
                       <a className="text-blue-500" href={data.link}>
                         {data.link}
@@ -115,14 +115,14 @@ const Blog = () => {
                 task 10 : Visit{" "}
                   <span>
                     <a className="text-blue-500" href="https://Mindchain.info">
-                      https://Mindchain.info
+                    https://Mindchain.info
                     </a>
                   </span>{" "}
                   and remark about Mindchain ecosystem
                 </li>
               </ul>
             </div>
-            <div className="text-white">
+            <div className="">
               <h2 className="text-[20px] font-semibold">
                 How to get Airdrop Bonus:{" "}
               </h2>
@@ -135,7 +135,7 @@ const Blog = () => {
               </ul>
             </div>
             <div>
-              <p>
+              <p className="">
                 If you have free time , Don’t forget to verify yourself with on
                 https://mindchainwallet.com account , which is a way to ensure
                 proof of humanity and prevent bot activity. It distinguishes
@@ -144,7 +144,7 @@ const Blog = () => {
               <p>not miss out on the next DeFi airdrop!</p>
             </div>
             <div>
-              <button className="text-white uppercase text-[20px] flex items-center gap-2 bg-lime-500 px-3 py-2 rounded">
+              <button className=" uppercase text-[20px] flex items-center gap-2 bg-[#00ADEE] px-3 py-2 rounded">
                 <span>Claim Aridrop</span> <FaArrowRightFromBracket />
               </button>
             </div>

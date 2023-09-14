@@ -11,7 +11,6 @@ import {
 } from "react-router-dom";
 import RootLayout from './components/RootLayout';
 import { ToastContainer } from 'react-toastify';
-import MindChain from './pages/AirDrop';
 import AirDrop from './pages/AirDrop';
 
 const router = createBrowserRouter([
