@@ -8,10 +8,10 @@ const Blog = () => {
   const aridrop = [
     {
       title: " Create an account on Mindchainwallet and submit UID :",
-      link: "https://Mindchain.info",
+      link: "https://www.mindchainwallet.com/",
     },
     {
-      title: "Go to twitter and follow Mindchain and submite username :",
+      title: "Go to twitter and follow Mindchain and submit username :",
       link: "https://twitter.com/MindChain1",
     },
     {
@@ -19,11 +19,11 @@ const Blog = () => {
       link: "",
     },
     {
-      title: "Join Telegram Channel and submite username :",
+      title: "Join Telegram Channel and submit username :",
       link: ":https://t.me/mindchain1",
     },
     {
-      title: "Join telegram Group and submite Username :",
+      title: "Join telegram Group and submit Username :",
       link: "https://t.me/mindchainMIND",
     },
     {
@@ -114,8 +114,8 @@ const Blog = () => {
                 <li>
                 task 10 : Visit{" "}
                   <span>
-                    <a className="text-blue-500" href="https://Mindchain.info">
-                    https://Mindchain.info
+                    <a className="text-blue-500" href="https://www.mindchainwallet.com">
+                    https://www.mindchainwallet.com
                     </a>
                   </span>{" "}
                   and remark about Mindchain ecosystem
