@@ -63,11 +63,11 @@ const Blog = () => {
               <ul className="">
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
-                  <span>Start Time : <span className="text-[#E3AB41]">20-09-2023</span></span>
+                  <span>Start Time : <span className="text-[#E3AB41]">Starts Soon</span></span>
                 </li>
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
-                  <span>Ending Time : <span className="text-[#E3AB41]">30-11-2023</span></span>
+                  <span>Ending Time : <span className="text-[#E3AB41]">Wait please</span></span>
                 </li>
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
