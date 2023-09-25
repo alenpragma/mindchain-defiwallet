@@ -9,7 +9,7 @@ import {FaTelegramPlane} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section className='bg-lightBlue  py-[50px] md:py-[150px]'>
+    <section className='bg-lightBlue  py-[50px] md:py-[150px] text-white'>
         <Container>
             <div className="w-full">
                 <div className="text-center w-3/4 mx-auto">

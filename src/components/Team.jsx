@@ -20,7 +20,7 @@ import solorShape from '../assets/solar.svg'
 
 const Team = () => {
   return (
-    <section className='bg-lightBlue pb-[60px] md:pb-[150px] relative'>
+    <section className='bg-lightBlue pb-[60px] md:pb-[150px] relative text-white'>
         <Container>
         <img className='absolute bottom-[11%] left-[-284px] origin-center rotate-[210deg] w-[48%] z-[100] hidden lg:block' src={solorShape} alt="solorShape" />
 

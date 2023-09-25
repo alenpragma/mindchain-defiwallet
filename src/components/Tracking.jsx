@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const Tracking = () => {
   return (
-    <section className='bg-lightBlue pb-[60px] md:pb-[150px]'>
+    <section className='bg-lightBlue pb-[60px] md:pb-[150px] text-white'>
         <Container>
          
             

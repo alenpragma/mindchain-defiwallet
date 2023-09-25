@@ -18,7 +18,7 @@ const MindchainStats = () => {
     console.log(statsData.average_block_time)
 
   return (
-    <section className='bg-lightBlue pb-[100px]'>
+    <section className='bg-lightBlue pb-[100px] text-white'>
         <Container>
             <div className="text-center pb-[40px]">
                 <h2 className="font-cabin text-[32px] font-semibold pb-[15px]" >Mindchain</h2>
