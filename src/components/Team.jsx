@@ -73,7 +73,7 @@ const Team = () => {
 
                             <img className='w-[130px] h-[130px] border-4 border-transparent rounded-full delay-100 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] opacity-0 group-hover:opacity-100' src={teamMemberEightImg} alt="teamMemberEightImg" />
                         </div>
-                        <h2 className='pt-[20px] pb-[5px] font-cabin font-semibold capitalize'>Erick Wilson</h2>
+                        <h2 className='pt-[20px] pb-[5px] font-cabin font-semibold capitalize'>Arik Willson</h2>
                         <h3 className='pb-[10px] text-[#7701F3]'>CSO</h3>
                         <p className='px-[20px] pb-[30px]'> John is a Crypto enthusiast. He was one of the first bolckchain actors in the world.</p>
                     </div>
