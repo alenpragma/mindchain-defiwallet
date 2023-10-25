@@ -175,30 +175,38 @@ const ICO = () => {
             </div>
           </TabPanel>
           <TabPanel>
+
+
+
+
             <div className="flex pt-[50px]">
               <div className="w-2/4">
-                <h2 className="font-cabin font-normal pb-[30px]"> PROFIT </h2>
+                <h2 className="font-cabin font-normal pb-[30px]">         Marchent Benefits: </h2>
                 <div className="flex flex-col gap-[15px]">
                   <div>
-                    <h3 className="font-cabin font-light"> Tokens Sales </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                    <h3 className="font-cabin font-light"> MUSD Staking </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       1 200 000 Mind (22%){" "}
-                    </p>
+                    </p> */}
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light"> Token Exchange </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
-                      {" "}
-                      1 BTC = 2200 Mind, 1 ETH = 825 KP{" "}
-                    </p>
+                    <h3 className="font-cabin font-light"> 10% extra bonus </h3>
+                 
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light"> Transations </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                    <h3 className="font-cabin font-light"> Lifetime Validity </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
-                    </p>
+                    </p> */}
+                  </div>
+                  <div>
+                    <h3 className="font-cabin font-light"> 24/7 Usability </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                      {" "}
+                      Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -242,6 +250,11 @@ const ICO = () => {
                 <img className="w-[70%]" src={bountyImg} alt="bountyImg" />
               </div>
             </div>
+            <a href="https://my.mindchainwallet.com/public/ambassador/">
+              <button class="bg-gradient-to-r from-[#FFBF5E] bg-primary py-2 px-8 uppercase  text-white rounded hover:bg-[#dea029]">
+                Learn More
+              </button>
+            </a>
           </TabPanel>
         </Tabs>
       </Container>
