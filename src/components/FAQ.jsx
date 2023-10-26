@@ -49,7 +49,7 @@ const FAQ = () => {
                                     </div>
                             </div>
                             
-                            <div className="two shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
+                            {/* <div className="two shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
                                     <h2 id="accordion-open-heading-2">
                                         <button onClick={()=> setIsTabTwo(!isTabTwo)} type="button" class="flex items-center justify-between w-full px-5 py-4 font-medium text-left text-white  dark:text-gray-400 hover:bg-primary " data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
                                         <span class="flex items-center">What is ICO ? </span>
@@ -76,7 +76,7 @@ const FAQ = () => {
                                         </p>
                                         </div>
                                     </div>
-                            </div>
+                            </div> */}
 
                             <div className="four shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
                                 <h2 id="accordion-open-heading-4">
@@ -92,7 +92,7 @@ const FAQ = () => {
                                     </div>
                             </div>
 
-                            <div className="five shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
+                            {/* <div className="five shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
                                 <h2 id="accordion-open-heading-5">
                                         <button onClick={()=> setIsTabFive(!isTabFive)} type="button" class="flex items-center justify-between w-full px-5 py-4 font-medium text-left text-white hover:bg-primary dark:hover:bg-gray-800 hover:text-white" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-4">
                                         <span class="flex items-center">When will be the platform released ? </span>
@@ -105,12 +105,12 @@ const FAQ = () => {
                                         <p class="mb-2 text-[#d1d1d1e2] dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                     </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="right w-full md:w-2/4">
                     <div id="accordion-open" data-accordion="open" className='flex flex-col gap-3'>
-                            <div className="one shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
+                            {/* <div className="one shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
                                     <h2 id="accordion-open-heading-1">
                                         <button onClick={()=> setIsTabSix(!isTabSix)}  type="button" class="flex items-center justify-between w-full px-5 py-4 font-medium text-left  dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-primary dark:hover:bg-gray-800" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1" >
                                         <span class="flex items-center">How much tokens will be sold ? </span>
@@ -152,7 +152,7 @@ const FAQ = () => {
                                         </p>
                                         </div>
                                     </div>
-                            </div>
+                            </div> */}
 
                             <div className="four shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
                                 <h2 id="accordion-open-heading-4">

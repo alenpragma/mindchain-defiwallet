@@ -1,6 +1,7 @@
 import React from "react";
 
 import Container from "../components/layouts/Container";
+import { BsArrowReturnRight } from "react-icons/bs";
 
 // iamges
 import tokensImg from "../assets/tokens.svg";
@@ -175,34 +176,40 @@ const ICO = () => {
             </div>
           </TabPanel>
           <TabPanel>
-
-
-
-
             <div className="flex pt-[50px]">
               <div className="w-2/4">
-                <h2 className="font-cabin font-normal pb-[30px]">         Marchent Benefits: </h2>
+                <h2 className="font-cabin font-normal pb-[30px]">
+                  {" "}
+                  Marchent Benefits:{" "}
+                </h2>
                 <div className="flex flex-col gap-[15px]">
                   <div>
-                    <h3 className="font-cabin font-light"> MUSD Staking </h3>
+                    <h3 className="font-cabin font-light  flex items-center gap-x-3">
+                      <BsArrowReturnRight /> MUSD Staking{" "}
+                    </h3>
                     {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       1 200 000 Mind (22%){" "}
                     </p> */}
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light"> 10% extra bonus </h3>
-                 
+                    <h3 className="font-cabin font-light flex items-center gap-x-3 ">
+                      <BsArrowReturnRight /> 10% extra bonus{" "}
+                    </h3>
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light"> Lifetime Validity </h3>
+                    <h3 className="font-cabin font-light  flex items-center gap-x-3">
+                      <BsArrowReturnRight /> Lifetime Validity{" "}
+                    </h3>
                     {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
                     </p> */}
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light"> 24/7 Usability </h3>
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      <BsArrowReturnRight /> 24/7 Usability{" "}
+                    </h3>
                     {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
@@ -224,25 +231,74 @@ const ICO = () => {
                 </h2>
                 <div className="flex flex-col gap-[15px]">
                   <div>
-                    <h3 className="font-cabin font-light"> Tokens Sales </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      <BsArrowReturnRight />
+                      Education and Awareness
+                    </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       1 200 000 Mind (22%){" "}
-                    </p>
+                    </p> */}
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light"> Token Exchange </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      <BsArrowReturnRight />
+                      Advocacy and Promotion{" "}
+                    </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       1 BTC = 2200 Mind, 1 ETH = 825 KP{" "}
-                    </p>
+                    </p> */}
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light"> Transations </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      <BsArrowReturnRight />
+                      Community Engagement
+                    </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
-                    </p>
+                    </p> */}
+                  </div>
+                  <div>
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      <BsArrowReturnRight />
+                      Feedback Collection
+                    </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                      {" "}
+                      Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
+                    </p> */}
+                  </div>
+                  <div>
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      <BsArrowReturnRight />
+                      AMA Management{" "}
+                    </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                      {" "}
+                      Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
+                    </p> */}
+                  </div>
+                  <div>
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">  <BsArrowReturnRight /> Market Research </h3>
+                    {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
+                      {" "}
+                      Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
+                    </p> */}
+                  </div>
+                 
+                  <div className="">
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      <BsArrowReturnRight />
+                      Compliance
+                    </h3>
+                  </div>
+                  <div className="">
+                    <h3 className="font-cabin font-light mb-5 flex items-center gap-x-3">
+                      <BsArrowReturnRight />
+                      Support
+                    </h3>
                   </div>
                 </div>
               </div>
