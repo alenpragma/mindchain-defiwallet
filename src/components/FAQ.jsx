@@ -28,7 +28,7 @@ const FAQ = () => {
             <div className="w-full">
                 <div className="text-center w-3/4 mx-auto">
                     <h2 className='font-cabin font-semibold text-[32px] relative before:absolute before:w-[75px] before:h-[3px] before:bg-primary before:content-[""] before:top-[-34%] before:left-[50%] before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>FAQ</h2>
-                    <p className='font-cabin font-normal text-[18px] pt-[30px] md:px-[100px] pb-[50px] mx-auto'> Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Ut sea pertinax perpetua, eruditi volumus quaestio ex mel, has ei tota homero. </p>
+                    <p className='font-cabin font-normal text-[18px] pt-[30px] md:px-[100px] pb-[50px] mx-auto'> Mindchain is a blockchain ecosystem with EVM compatible. Do you have questions? We have answers! </p>
                 </div>
 
                 <div className="w-full flex flex-col md:flex-row gap-5">
@@ -87,7 +87,7 @@ const FAQ = () => {
                                     </h2>
                                     <div id="accordion-open-body-4" className={isTabFour ? "" : "hidden"} aria-labelledby="accordion-open-heading-4">
                                         <div class="p-5 dark:border-gray-700">
-                                        <p class="mb-2 text-[#d1d1d1e2] dark:text-gray-400">Mindchain is the project's main currency. It is the token that powers the entire Mindchain ecosystem and has a total supply and max supply of 71,000,000. commodo consequat.</p>
+                                        <p class="mb-2 text-[#d1d1d1e2] dark:text-gray-400">Mindchain is establishing with various projects to foster its ecosystem, including DeFi projects, cryptocurrency, decentralized & centralized transactions, dApps, and more.</p>
                                         </div>
                                     </div>
                             </div>
@@ -163,7 +163,7 @@ const FAQ = () => {
                                     </h2>
                                     <div id="accordion-open-body-4" className={isTabNine ? "" : "hidden"} aria-labelledby="accordion-open-heading-4">
                                         <div class="p-5  dark:border-gray-700">
-                                        <p class="mb-2 text-[#d1d1d1e2] dark:text-gray-400">Mindchain is the project's main currency. It is the token that powers the entire Mindchain ecosystem and has a total supply and max supply of 71,000,000. commodo consequat.</p>
+                                        <p class="mb-2 text-[#d1d1d1e2] dark:text-gray-400">Mindchain has its own native coin. MIND coin that powers the entire Mindchain ecosystem and has a total supply and max supply of 71,000,000. MIND coin distribution starts in 2021.</p>
                                         </div>
                                     </div>
                             </div>
@@ -171,14 +171,15 @@ const FAQ = () => {
                             <div className="five shadow-md shadow-[#DEA83C30] border border-[#DEA83C30]">
                                 <h2 id="accordion-open-heading-5">
                                         <button onClick={()=> setIsTabTen(!isTabTen)} type="button" class="flex items-center justify-between w-full px-5 py-4 font-medium text-left text-white hover:bg-primary dark:hover:bg-gray-800 hover:text-white" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-4">
-                                        <span class="flex items-center">Will their be Bounties ?  </span>
+                                        <span class="flex items-center">
+What is ICO? </span>
                                             {isTabTen ? <AiOutlineMinus /> : <AiOutlinePlus />}
                                             
                                         </button>
                                     </h2>
                                     <div id="accordion-open-body-5" className={isTabTen ? "" : "hidden"} aria-labelledby="accordion-open-heading-5">
                                         <div class="p-5 dark:border-gray-700">
-                                        <p class="mb-2 text-[#d1d1d1] dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <p class="mb-2 text-[#d1d1d1] dark:text-gray-400">An Initial Coin Offering (ICO) is a fundraising method commonly used by cryptocurrency and blockchain projects to raise capital. It is a way for these projects to raise funds by selling their own native digital tokens or coins to investors and the public.</p>
                                         </div>
                                     </div>
                             </div>
