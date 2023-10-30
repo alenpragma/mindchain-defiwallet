@@ -17,7 +17,7 @@ const Market = () => {
     },[])
 
   return (
-    <section className='bg-lightBlue py-[100px]'>
+    <section className='bg-lightBlue py-[100px] text-white'>
         <Container>
           <div className="text-center pb-[40px]">
               <h2 className='font-cabin font-semibold text-[32px]'>Coin Market</h2>
