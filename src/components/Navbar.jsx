@@ -48,9 +48,9 @@ const Navbar = () => {
           
           <ul className=' flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center'>
             <li className=''><Link to="https://www.mindchain.info">Mindchain Coin</Link></li>
-            <li className='' ><Link to="#">pMIND</Link></li>
+            <li className='' ><Link to="#">Documentation</Link></li>
             <li className='' ><Link to="#">Roadmap</Link></li>
-            <li className='' ><Link to="#">News</Link></li>
+            <li className='' ><Link to="https://academy.mindchain.info/ ">News</Link></li>
             <li className='' ><Link to="CoinMarket">Coin Market</Link></li>
             <li className='' ><Link to="airdrop">Air-Drop</Link></li>
             <li className='' >
