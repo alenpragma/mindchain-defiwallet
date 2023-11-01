@@ -12,6 +12,7 @@ import {
 import RootLayout from './components/RootLayout';
 import { ToastContainer } from 'react-toastify';
 import AirDrop from './pages/AirDrop';
+import Documents from './components/Documents';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         path: "airdrop",
         element: <AirDrop />,
       },
+      {
+        path: "ambassador",
+        element: <Documents />
+      }
     ]
   }
 ]);

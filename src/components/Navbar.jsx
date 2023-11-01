@@ -18,11 +18,11 @@ const Navbar = () => {
   let documentationDropDown = [
     {
       name: "Validator",
-      path: "/",
+      path: "/validator",
     },
     {
       name: "Ambassador",
-      path: "/",
+      path: "ambassador",
     },
     {
       name: "Consultant",
@@ -39,7 +39,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-lightBlue  py-5 text-white relative z-[999] w-full animate-fade-down animate-once">
+    <nav className="bg-lightBlue py-5 text-white relative z-[999] w-full animate-fade-down animate-once">
       <Container>
         <div className="flex flex-col md:flex-row gap-y-[40px] md:gap-y-0 justify-between relative ">
           <a className="w-full lg:w-1/4" href="https://www.mindchainwallet.com">
@@ -71,7 +71,7 @@ const Navbar = () => {
                     <ul className="flex flex-col gap-y-3">
                      { documentationDropDown.map((item,index)=>(
                       <li className="hover:text-[#e0e0e0]" key={index}>
-                        <Link>{item.name}</Link>
+                        <Link to={item.path}>{item.name}</Link>
                       </li>
                       ))}
                     </ul>
@@ -113,7 +113,7 @@ const Navbar = () => {
                     <ul className="flex flex-col gap-y-3">
                      { documentationDropDown.map((item,index)=>(
                       <li className="hover:text-[#e0e0e0]" key={index}>
-                        <Link>{item.name}</Link>
+                        <Link to={item.path}>{item.name}</Link>
                       </li>
                       ))}
                     </ul>
