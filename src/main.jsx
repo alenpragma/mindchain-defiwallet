@@ -13,6 +13,8 @@ import RootLayout from './components/RootLayout';
 import { ToastContainer } from 'react-toastify';
 import AirDrop from './pages/AirDrop';
 import Documents from './components/Documents';
+import EliteClub from './pages/EliteClub';
+import ProjectManager from './pages/ProjectManager';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "ambassador",
         element: <Documents />
+      },
+      {
+        path: "eliteclub",
+        element: <EliteClub />
+      },
+      {
+        path: "projectmanager",
+        element: <ProjectManager />
       }
     ]
   }
@@ -41,6 +51,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <div className="bg-lightBlue">
+
      <RouterProvider router={router} />
      <ToastContainer
         position="bottom-center"
@@ -55,5 +67,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         pauseOnHover
         theme="dark"
       />
+    </div>
   </React.StrictMode>,
 )

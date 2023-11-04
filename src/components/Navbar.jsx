@@ -30,11 +30,11 @@ const Navbar = () => {
     },
     {
       name: "Elite Club",
-      path: "/",
+      path: "eliteclub",
     },
     {
       name: "Project Manager",
-      path: "/",
+      path: "projectmanager",
     },
   ];
 
