@@ -5,6 +5,12 @@ import icon1 from "../assets/images/documents/img1.svg";
 import icon2 from "../assets/images/documents/img2.svg";
 import icon3 from "../assets/images/documents/img3.svg";
 
+import feature1 from "../assets/images/feature/feature1.svg";
+import feature2 from "../assets/images/feature/feature2.svg";
+import feature3 from "../assets/images/feature/feature3.svg";
+import feature4 from "../assets/images/feature/feature4.svg";
+import feature5 from "../assets/images/feature/fetuare5.png";
+
 const Documents = ({ title }) => {
   return (
     <div className="bg-[#1F2029] text-white">
@@ -28,6 +34,68 @@ const Documents = ({ title }) => {
             </div>
           </div>
         </div>
+        {/* Feature Section */}
+        <div className="my-10">
+          <div className="text-center my-5 flex flex-col gap-3">
+            <h2 className="font-semibold text-2xl">
+              Features that Elevate Your Journey
+            </h2>
+            <p>
+              Our range of services are tailored to meet the diverse needs of
+              modern users.
+            </p>
+          </div>
+          <div className="lg:grid grid-cols-3 gap-2">
+            <div className="flex flex-col gap-3">
+              <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
+                <img className="w-16" src={feature1} alt="" />
+                <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                <p>
+                  Level up your marketing strategies with TBE's advanced
+                  marketing tools designed for optimum reach and engagement.
+                </p>
+              </div>
+              <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
+                <img className="w-16" src={feature2} alt="" />
+                <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                <p>
+                  Level up your marketing strategies with TBE's advanced
+                  marketing tools designed for optimum reach and engagement.
+                </p>
+              </div>
+            </div>
+            <div className="p-5 flex flex-col gap-5 lg:gap-0 md:gap-0 justify-between bg-[#ffffff0d] mt-5 lg:mt-0 md:mt-0 rounded">
+              <div>
+                <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                <p>
+                  Level up your marketing strategies with TBE's advanced
+                  marketing tools designed for optimum reach and engagement.
+                </p>
+              </div>
+              <img className="w-full" src={feature5} alt="" />
+            </div>
+              <div className="flex flex-col gap-3 lg:mt-0 mt-5">
+                <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
+                  <img className="w-16" src={feature3} alt="" />
+                  <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                  <p>
+                    Level up your marketing strategies with TBE's advanced
+                    marketing tools designed for optimum reach and engagement.
+                  </p>
+                </div>
+                <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
+                  <img className="w-16" src={feature4} alt="" />
+                  <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                  <p>
+                    Level up your marketing strategies with TBE's advanced
+                    marketing tools designed for optimum reach and engagement.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        {/* Why us Section */}
         <div className="py-10">
           <div className="flex justify-center items-center gap-3">
             <div className="lg:w-1/2 space-y-8">
