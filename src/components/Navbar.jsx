@@ -18,7 +18,7 @@ const Navbar = () => {
   let documentationDropDown = [
     {
       name: "Validator",
-      path: "/validator",
+      path: "https://docs.mindchain.info/",
     },
     {
       name: "Ambassador",
@@ -26,7 +26,7 @@ const Navbar = () => {
     },
     {
       name: "Consultant",
-      path: "/",
+      path: "consultant",
     },
     {
       name: "Elite Club",

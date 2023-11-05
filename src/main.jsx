@@ -15,6 +15,7 @@ import AirDrop from './pages/AirDrop';
 import Documents from './components/Documents';
 import EliteClub from './pages/EliteClub';
 import ProjectManager from './pages/ProjectManager';
+import Consutant from './components/Consutant';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,9 @@ const router = createBrowserRouter([
       {
         path: "projectmanager",
         element: <ProjectManager />
+      },{
+        path:"consultant",
+        element:<Consutant/>
       }
     ]
   }

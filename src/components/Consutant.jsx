@@ -11,7 +11,7 @@ import feature3 from "../assets/images/feature/feature3.svg";
 import feature4 from "../assets/images/feature/feature4.svg";
 import feature5 from "../assets/images/feature/fetuare5.png";
 
-const Documents = ({ title }) => {
+const Consutant = ({ title }) => {
   return (
     <div className="bg-[#1F2029] text-white">
       <Container>
@@ -142,4 +142,4 @@ const Documents = ({ title }) => {
   );
 };
 
-export default Documents;
+export default Consutant;
