@@ -3,7 +3,7 @@ import Documents from '../components/Documents';
 
 const Ambassador = () => {
     return (
-        <Documents title="i love bangladesh">
+        <Documents title="i love mindchain">
         </Documents>
     );
 };
