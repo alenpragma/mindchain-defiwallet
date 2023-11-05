@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./layouts/Container";
-import image from "../assets/images/media/post1.svg";
+import image from "../assets/images/media/ambassador-program.jpg";
 import icon1 from "../assets/images/documents/img1.svg";
 import icon2 from "../assets/images/documents/img2.svg";
 import icon3 from "../assets/images/documents/img3.svg";
