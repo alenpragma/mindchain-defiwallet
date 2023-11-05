@@ -68,7 +68,7 @@ const OurClientSlider = () => {
         <div className=" flex justify-center">
           <p className="text-grey text-center mt-5 w-[70%]">
             What our clients say matters to us, and we invite you to explore
-            their testimonials to understand why TBE is the preferred choice for
+            their testimonials to understand why MINDCHAIN is the preferred choice for
             blockchain solutions.
           </p>
         </div>
