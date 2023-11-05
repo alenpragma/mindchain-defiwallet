@@ -29,7 +29,7 @@ const Documents = ({ title }) => {
               </button>
             </div>
             <div className="lg:w-1/2 lg:mt-0 mt-5">
-              <img src={image} alt="" />
+              <img className="rounded-lg" src={image} alt="" />
             </div>
           </div>
         </div>
