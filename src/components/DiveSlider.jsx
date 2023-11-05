@@ -19,7 +19,7 @@ const DiveSlider = () => {
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-                TBE takes blockchain technology's inherent virtues of security
+                Mindchain takes blockchain technology's inherent virtues of security
                 and transparency to the next level. Our premium products stand
                 as paragons of innovation and quality, encapsulating the
                 freshest breakthroughs in the blockchain sphere. Rest easy
@@ -34,7 +34,7 @@ const DiveSlider = () => {
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
               <img
-                src="	https://tbe.io/_next/static/media/tbeSliderOne.6972d921.png"
+                src="	https://www.mindchainwallet.com/assets/mind-buildings%201-f35ad7df.svg"
                 className="w-[75%] h-auto"
                 alt=""
               />
@@ -45,17 +45,10 @@ const DiveSlider = () => {
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-                TBE takes blockchain technology's inherent virtues of security
-                and transparency to the next level. Our premium products stand
-                as paragons of innovation and quality, encapsulating the
-                freshest breakthroughs in the blockchain sphere. Rest easy
-                knowing you're equipped with trustworthy and state-of-the-art
-                solutions.
+                Welcome to the future of blockchain technology with Mindchain! Our Elite Club is your exclusive gateway to unlocking the full potential of the next generation blockchain platform. When you become a member, you'll gain access to a world of cutting-edge benefits and privileges, including:
               </p>
               <p className="mt-5 font-bold">
-                Experience the full scope of blockchain's potential with TBE.
-                Achieve your aspirations in the digital frontier—click to
-                explore our product range now.
+                Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!
               </p>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
