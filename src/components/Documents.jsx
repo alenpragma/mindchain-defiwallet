@@ -19,11 +19,10 @@ const Documents = ({ title }) => {
           <div className="lg:flex justify-center items-center flex-row-reverse gap-x-5">
             <div className="lg:w-1/2 leading-10 space-y-10">
               <h2 className="text-6xl font-bold">
-                Unleash the Power of World-Class Services
+                Join the Mindchain Ambassador Program
               </h2>
               <p className="text-3xl">
-                Transform your endeavors with our versatile and robust suite of
-                services.
+                Are you ready to embark on this exciting journey as a Mindchain Ambassador? Join us in making a significant impact on the blockchain space. 
               </p>
               <button className="border border-white px-7 py-1 hover:bg-[#E3AB41] hover:border-[#E3AB41] rounded hover:font-extralight">
                 Log In Now
@@ -38,38 +37,34 @@ const Documents = ({ title }) => {
         <div className="my-10">
           <div className="text-center my-5 flex flex-col gap-3">
             <h2 className="font-semibold text-2xl">
-              Features that Elevate Your Journey
+              What is Mindchain?
             </h2>
             <p>
-              Our range of services are tailored to meet the diverse needs of
-              modern users.
+              Mindchain is a leading EVM (Ethereum Virtual Machine) compatible blockchain that provides a robust infrastructure for decentralized applications (DApps) and smart contracts. Our platform is known for its high-speed transactions, low fees, and seamless scalability, making it an ideal choice for developers, businesses, and crypto enthusiasts.
             </p>
           </div>
           <div className="lg:grid grid-cols-3 gap-2">
             <div className="flex flex-col gap-3">
               <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
                 <img className="w-16" src={feature1} alt="" />
-                <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                <h2 className="text-2xl font-semibold">Be Part of Something Big</h2>
                 <p>
-                  Level up your marketing strategies with TBE's advanced
-                  marketing tools designed for optimum reach and engagement.
+                  Join a community of like-minded individuals passionate about blockchain technology and its potential to reshape industries.
                 </p>
               </div>
               <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
                 <img className="w-16" src={feature2} alt="" />
-                <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                <h2 className="text-2xl font-semibold">Influence and Impact</h2>
                 <p>
-                  Level up your marketing strategies with TBE's advanced
-                  marketing tools designed for optimum reach and engagement.
+                  As an Ambassador, you'll have a direct say in the development of Mindchain, with opportunities to share your insights and suggestions.
                 </p>
               </div>
             </div>
             <div className="p-5 flex flex-col gap-5 lg:gap-0 md:gap-0 justify-between bg-[#ffffff0d] mt-5 lg:mt-0 md:mt-0 rounded">
               <div>
-                <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                <h2 className="text-2xl font-semibold">Networking</h2>
                 <p>
-                  Level up your marketing strategies with TBE's advanced
-                  marketing tools designed for optimum reach and engagement.
+                  Connect with other Ambassadors, Mindchain developers, and industry leaders through exclusive events and collaborations.
                 </p>
               </div>
               <img className="w-full" src={feature5} alt="" />
@@ -77,18 +72,16 @@ const Documents = ({ title }) => {
               <div className="flex flex-col gap-3 lg:mt-0 mt-5">
                 <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
                   <img className="w-16" src={feature3} alt="" />
-                  <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                  <h2 className="text-2xl font-semibold">Get Rewards</h2>
                   <p>
-                    Level up your marketing strategies with TBE's advanced
-                    marketing tools designed for optimum reach and engagement.
+                    Enjoy a range of incentives, including token rewards, exclusive merchandise, and early access to Mindchain updates and projects.
                   </p>
                 </div>
                 <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
                   <img className="w-16" src={feature4} alt="" />
-                  <h2 className="text-2xl font-semibold">Marketing Tools</h2>
+                  <h2 className="text-2xl font-semibold">Education</h2>
                   <p>
-                    Level up your marketing strategies with TBE's advanced
-                    marketing tools designed for optimum reach and engagement.
+                   Gain access to resources and training materials to enhance your knowledge of blockchain technology and Mindchain.
                   </p>
                 </div>
               </div>
@@ -100,34 +93,28 @@ const Documents = ({ title }) => {
           <div className="flex justify-center items-center gap-3">
             <div className="lg:w-1/2 space-y-8">
               <div>
-                <h2 className="text-2xl font-semibold">Why Us?</h2>
+                <h2 className="text-2xl font-semibold">Ambassador Responsibilities</h2>
                 <p className="mt-5">
-                  Quality, Reliability, and a Community of Innovators
+                  As a Mindchain Ambassador, your role is to promote and advocate for Mindchain in various ways:
                 </p>
               </div>
               <div className="space-y-5">
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon1} alt="" />
                   <p>
-                    Our focus on quality ensures that you are always met with
-                    excellence, whether it's in products, services, or community
-                    engagement.
+                    Social Media Advocacy: Share Mindchain news, updates, and content on your social media platforms to help raise awareness and engage the community.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon2} alt="" />
                   <p>
-                    Our focus on quality ensures that you are always met with
-                    excellence, whether it's in products, services, or community
-                    engagement.
+                    Content Creation: Write articles, create videos, or develop educational content about Mindchain to inform and educate your audience.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon3} alt="" />
                   <p>
-                    Our focus on quality ensures that you are always met with
-                    excellence, whether it's in products, services, or community
-                    engagement.
+                    Community Engagement: Participate in discussions, answer questions, and provide support to the Mindchain community in forums, chat groups, and other platforms.
                   </p>
                 </div>
               </div>
