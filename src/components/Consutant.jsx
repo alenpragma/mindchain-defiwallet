@@ -19,11 +19,10 @@ const Consutant = ({ title }) => {
           <div className="lg:flex justify-center items-center flex-row-reverse gap-x-5">
             <div className="lg:w-1/2 leading-10 space-y-10">
               <h2 className="text-6xl font-bold">
-                Unleash the Power of World-Class Services
+                Mindchain Ambassador Program
               </h2>
               <p className="text-3xl">
-                Transform your endeavors with our versatile and robust suite of
-                services.
+                You will earn exclusive access, discounts gifts, and other rewards as you help us encourage the worldwide Mindchain community.
               </p>
               <button className="border border-white px-7 py-1 hover:bg-[#E3AB41] hover:border-[#E3AB41] rounded hover:font-extralight">
                 Log In Now
