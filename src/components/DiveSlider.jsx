@@ -27,9 +27,7 @@ const DiveSlider = () => {
                 solutions.
               </p>
               <p className="mt-5 font-bold">
-                Experience the full scope of blockchain's potential with TBE.
-                Achieve your aspirations in the digital frontier—click to
-                explore our product range now.
+                Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!
               </p>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
@@ -45,7 +43,7 @@ const DiveSlider = () => {
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-                Welcome to the future of blockchain technology with Mindchain! Our Elite Club is your exclusive gateway to unlocking the full potential of the next generation blockchain platform. When you become a member, you'll gain access to a world of cutting-edge benefits and privileges, including:
+                The Mindchain Consultant Program is designed to harness the power of our community members to promote Mindchain across various social media platforms and engage in content creation. Consultants will be responsible for sharing Mindchain's mission, updates, and educational content with the broader community. This program is an excellent way for you to earn money while supporting a groundbreaking blockchain project.
               </p>
               <p className="mt-5 font-bold">
                 Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!
@@ -64,17 +62,10 @@ const DiveSlider = () => {
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-                TBE takes blockchain technology's inherent virtues of security
-                and transparency to the next level. Our premium products stand
-                as paragons of innovation and quality, encapsulating the
-                freshest breakthroughs in the blockchain sphere. Rest easy
-                knowing you're equipped with trustworthy and state-of-the-art
-                solutions.
+              The Mindchain Consultant Program is designed to harness the power of our community members to promote Mindchain across various social media platforms and engage in content creation. Consultants will be responsible for sharing Mindchain's mission, updates, and educational content with the broader community. This program is an excellent way for you to earn money while supporting a groundbreaking blockchain project.
               </p>
               <p className="mt-5 font-bold">
-                Experience the full scope of blockchain's potential with TBE.
-                Achieve your aspirations in the digital frontier—click to
-                explore our product range now.
+                Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!.
               </p>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
