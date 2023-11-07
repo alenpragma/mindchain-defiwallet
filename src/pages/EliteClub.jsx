@@ -150,6 +150,12 @@ const EliteClub = () => {
                   <span className="font-semibold">Membership Fees :</span> Membership fees, if applicable, will be clearly outlined during the application process. Fees are non-refundable, and members are responsible for any associated charges.
                   </p>
                 </div>
+                <div className="flex gap-3 justify-start items-center">
+                  <img src={icon2} alt="" />
+                  <p>
+                  <span className="font-semibold">Membership Duration :</span>Membership duration will be specified upon acceptance into the Elite Club. Mindchain may offer different membership terms, including annual, biennial, or other options.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="lg:w-1/2">
