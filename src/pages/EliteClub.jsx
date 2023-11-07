@@ -126,28 +126,28 @@ const EliteClub = () => {
           <div className="flex flex-row-reverse justify-center items-center gap-8">
             <div className="lg:w-1/2 space-y-8">
               <div>
-                <h2 className="text-2xl font-semibold">Ambassador Responsibilities</h2>
+                <h2 className="text-2xl font-semibold">Terms and Conditions</h2>
                 <p className="mt-5">
-                  As a Mindchain Ambassador, your role is to promote and advocate for Mindchain in various ways:
+                To become an Elite Club member of Mindchain you need to follow these terms and conditions.
                 </p>
               </div>
               <div className="space-y-5">
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon1} alt="" />
                   <p>
-                    Social Media Advocacy: Share Mindchain news, updates, and content on your social media platforms to help raise awareness and engage the community.
+                  <span className="font-semibold">Eligibility :</span> To become a Mindchain Elite Club member, you must be at least 18 years old. Membership eligibility may be subject to additional criteria set by Mindchain.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon2} alt="" />
                   <p>
-                    Content Creation: Write articles, create videos, or develop educational content about Mindchain to inform and educate your audience.
+                  <span className="font-semibold">Application Process :</span> Interested individuals can apply for Elite Club membership through the official Mindchain website or designated channels. Mindchain reserves the right to approve or reject membership applications at its discretion.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon3} alt="" />
                   <p>
-                    Community Engagement: Participate in discussions, answer questions, and provide support to the Mindchain community in forums, chat groups, and other platforms.
+                  <span className="font-semibold">Membership Fees :</span> Membership fees, if applicable, will be clearly outlined during the application process. Fees are non-refundable, and members are responsible for any associated charges.
                   </p>
                 </div>
               </div>
