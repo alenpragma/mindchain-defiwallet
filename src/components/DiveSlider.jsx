@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
+import { BsArrowRight } from "react-icons/bs";
 
 const DiveSlider = () => {
   return (
@@ -26,8 +27,11 @@ const DiveSlider = () => {
                 knowing you're equipped with trustworthy and state-of-the-art
                 solutions.
               </p>
-              <p className="mt-5 font-bold">
+              <p className="mt-5">
                 Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!
+              </p>
+              <p className="mt-5 flex gap-3 items-center">
+              <span><BsArrowRight /></span>Deposit $1000 to become an Elite Club Member.
               </p>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">

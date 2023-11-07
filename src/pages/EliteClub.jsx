@@ -5,37 +5,45 @@ import { Link } from "react-router-dom";
 import DiveSlider from "../components/DiveSlider";
 import OurClientSlider from "../components/OurClientSlider";
 
+import icon1 from "../assets/images/documents/img1.svg";
+// import icon1 from "../assets/images/documents/";
+import icon2 from "../assets/images/documents/img2.svg";
+import icon3 from "../assets/images/documents/img3.svg";
+
+
+import image from "../assets/images/media/abbasidor.jpg";
+
 const EliteClub = () => {
   let keyFeatureData = [
     {
       icon: "	https://tbe.io/_next/static/media/featureOneIcon.9ade4402.svg",
-      title: "Blockchain Solutions",
-      text: "Leverage TBE's avant-garde blockchain technology for secure, transparent, and hyper-efficient digital interactions.",
+      title: "Customized Solutions",
+      text: "Access tailored blockchain solutions to meet your unique needs.",
     },
     {
       icon: "https://tbe.io/_next/static/media/tech-suite-product-feature.26a81b2a.svg",
-      title: "Cutting-Edge Tech Suite",
-      text: "Dive into TBE's premier tech offerings, architected to catapult both your personal and business ventures into a future of efficiency, security, and innovation.",
+      title: "Exclusive Events",
+      text: "Gain entry to Elite-only webinars, seminars, and conferences.",
     },
     {
       icon: "	https://tbe.io/_next/static/media/ecosystem-product-feature.a1edea07.svg",
-      title: "Collaborative Ecosystem",
-      text: "Immerse yourself in TBE's robust community of blockchain aficionados, experts, and visionaries, collectively striving for innovation and success.",
+      title: "Insider Insights",
+      text: "Stay ahead of the curve with exclusive updates, news, and industry trends.",
     },
     {
       icon: "https://tbe.io/_next/static/media/empowerment-feature-icon.40c3398a.svg",
-      title: "Financial Empowerment",
-      text: "Gain true financial autonomy with TBE’s invaluable educational resources, pragmatic tools, and ongoing support, guiding you to take the reins of your fiscal future.",
+      title: "Early Access",
+      text: "Be the first to explore and utilize Mindchain's groundbreaking blockchain innovations.",
     },
     {
       icon: "	https://tbe.io/_next/static/media/rewards-feature-icon.a0c5f574.svg",
-      title: "Incentive-Driven Rewards",
-      text: "Thrive within TBE's dynamic rewards ecosystem, designed to commend your contributions, foster excellence, and amplify your impact.",
+      title: "Networking Opportunities",
+      text: "Connect with like-minded blockchain enthusiasts and industry leaders.",
     },
     {
       icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
-      title: "Intuitive User Experience",
-      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+      title: "Premium Support",
+      text: "Enjoy priority assistance from our dedicated Elite support team.",
     },
   ];
   return (
@@ -44,8 +52,7 @@ const EliteClub = () => {
         {/* EliteClub banner start */}
         <div
           style={{
-            backgroundImage:
-              'url("https://i.postimg.cc/Xvr2cRHY/mind-43.png")',
+            backgroundImage: 'url("https://i.postimg.cc/Xvr2cRHY/mind-43.png")',
             backgroundRepeat: "no-repeat",
             backgroundPosition: "top",
             backgroundSize: "cover",
@@ -63,7 +70,7 @@ const EliteClub = () => {
               potential of the next-generation blockchain platform.
             </p>
             <Link to="/">
-              <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary-green ">
+              <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary ">
                 Register Now
               </div>
             </Link>
@@ -74,12 +81,11 @@ const EliteClub = () => {
         <div className="max-w-container px-[10px] mx-auto py-[100px]">
           <div className="flex flex-col gap-y-10 md:justify-between md:flex-row ">
             <h2 className="w-full md:w-[40%] text-[20px] md:text-[30px] font-bold gradiant-text">
-              Key Features of TBE's Revolutionary Offerings
+              When you become a member
             </h2>
             <p className="w-full md:w-[40%] text-grey">
-              Bridging your ambitions with groundbreaking blockchain technology,
-              TBE equips you with all the tools you need for a transformative
-              journey.
+              You'll gain access to a world of cutting-edge benefits and
+              privileges, including
             </p>
           </div>
           <div className="py-[80px] flex flex-col md:flex-row gap-3 flex-wrap">
@@ -102,7 +108,7 @@ const EliteClub = () => {
         {/* dive in text start */}
         <div className="max-w-container px-[10px] mx-auto ">
           <h2 className="text-[25px] md:text-[35px] text-center font-bold gradiant-text mb-10">
-            Your Blockchain Destiny is One Click Away: Dive In!
+          How to Become Elite Club Member
           </h2>
         </div>
         {/* dive in text end */}
@@ -110,8 +116,47 @@ const EliteClub = () => {
         <DiveSlider />
         {/* dive slider end */}
         {/* our client slider start */}
-        <OurClientSlider />
+        {/* <OurClientSlider /> */}
         {/* our client slider end */}
+
+
+
+         {/* Why us Section */}
+         <div className="max-w-container px-[10px] mx-auto py-[50px]">
+          <div className="flex flex-row-reverse justify-center items-center gap-8">
+            <div className="lg:w-1/2 space-y-8">
+              <div>
+                <h2 className="text-2xl font-semibold">Ambassador Responsibilities</h2>
+                <p className="mt-5">
+                  As a Mindchain Ambassador, your role is to promote and advocate for Mindchain in various ways:
+                </p>
+              </div>
+              <div className="space-y-5">
+                <div className="flex gap-3 justify-start items-center">
+                  <img src={icon1} alt="" />
+                  <p>
+                    Social Media Advocacy: Share Mindchain news, updates, and content on your social media platforms to help raise awareness and engage the community.
+                  </p>
+                </div>
+                <div className="flex gap-3 justify-start items-center">
+                  <img src={icon2} alt="" />
+                  <p>
+                    Content Creation: Write articles, create videos, or develop educational content about Mindchain to inform and educate your audience.
+                  </p>
+                </div>
+                <div className="flex gap-3 justify-start items-center">
+                  <img src={icon3} alt="" />
+                  <p>
+                    Community Engagement: Participate in discussions, answer questions, and provide support to the Mindchain community in forums, chat groups, and other platforms.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/2">
+              <img className="rounded-lg" src={image} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
