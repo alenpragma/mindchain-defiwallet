@@ -1,7 +1,7 @@
 // import DiveSlider from "@/app/_components/_sliders/_dive-in-slider/DiveSlider";
 // import OurClientSlider from "@/app/_components/_sliders/_ourClientSLider/OurClientSlider";
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import DiveSlider from "../components/DiveSlider";
 import OurClientSlider from "../components/OurClientSlider";
 
@@ -45,7 +45,7 @@ const EliteClub = () => {
         <div
           style={{
             backgroundImage:
-              'url("https://tbe.io/_next/static/media/bg.190279b7.png")',
+              'url("https://i.postimg.cc/Xvr2cRHY/mind-43.png")',
             backgroundRepeat: "no-repeat",
             backgroundPosition: "top",
             backgroundSize: "cover",
@@ -53,13 +53,14 @@ const EliteClub = () => {
           className="w-full py-[50px] md:py-[100px]"
         >
           <div className="max-w-container text-center px-[10px]  mx-auto">
-            <p>CONNECT, PRODUCE, MAXIMIZE: THE BLOCKCHAIN ERA BEGINS</p>
+            <p>Why Become Elite Member!</p>
             <h1 className="mt-3 text-[35px] font-bold md:text-[50px] text-center">
-              Explore the Future: TBE's Innovative Products
+              Elevate Your Blockchain Experience: Join the Mindchain Elite Club!
             </h1>
             <p className="mt-3 mb-5 text-grey text-center">
-              Unlock a world of possibilities with TBE's innovative blockchain
-              products and services tailored to elevate your digital experience.
+              Welcome to the future of blockchain technology with Mindchain! Our
+              Elite Club is your exclusive gateway to unlocking the full
+              potential of the next-generation blockchain platform.
             </p>
             <Link to="/">
               <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary-green ">
@@ -106,10 +107,10 @@ const EliteClub = () => {
         </div>
         {/* dive in text end */}
         {/* dive slider start */}
-        <DiveSlider/>                                                                                                                                             
+        <DiveSlider />
         {/* dive slider end */}
         {/* our client slider start */}
-        <OurClientSlider/>
+        <OurClientSlider />
         {/* our client slider end */}
       </div>
     </>

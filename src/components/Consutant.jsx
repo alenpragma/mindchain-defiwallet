@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./layouts/Container";
-import image from "../assets/images/media/post1.svg";
+import image from "../assets/images/media/consultent.jpg";
 import icon1 from "../assets/images/documents/img1.svg";
 import icon2 from "../assets/images/documents/img2.svg";
 import icon3 from "../assets/images/documents/img3.svg";
@@ -29,7 +29,7 @@ const Consutant = ({ title }) => {
               </button>
             </div>
             <div className="lg:w-1/2 lg:mt-0 mt-5">
-              <img src={image} alt="" />
+              <img className="rounded-lg" src={image} alt="" />
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ const Consutant = ({ title }) => {
               </div>
             </div>
             <div className="lg:w-1/2">
-              <img src={image} alt="" />
+              <img className="rounded-lg" src={image} alt="" />
             </div>
           </div>
         </div>
