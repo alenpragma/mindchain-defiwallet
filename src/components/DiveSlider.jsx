@@ -36,7 +36,7 @@ const DiveSlider = () => {
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
               <img
-                src="	https://www.mindchainwallet.com/assets/mind-buildings%201-f35ad7df.svg"
+                src="https://i.postimg.cc/SxKSK90w/ELITE-CLUBB.png"
                 className="w-[75%] h-auto"
                 alt=""
               />
