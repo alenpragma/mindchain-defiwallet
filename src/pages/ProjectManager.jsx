@@ -37,6 +37,21 @@ const ProjectManager = () => {
       title: "Intuitive User Experience",
       text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
     },
+    {
+      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
+      title: "Intuitive User Experience",
+      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+    },
+    {
+      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
+      title: "Intuitive User Experience",
+      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+    },
+    {
+      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
+      title: "Intuitive User Experience",
+      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+    },
   ];
   return (
     <>

@@ -159,7 +159,7 @@ const EliteClub = () => {
               </div>
             </div>
             <div className="lg:w-1/2">
-              <img className="rounded-lg" src={image} alt="" />
+              <img className="rounded-lg" src="https://i.postimg.cc/h487W169/Untitled-1-1.png" alt="" />
             </div>
           </div>
         </div>
