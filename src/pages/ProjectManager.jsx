@@ -1,56 +1,127 @@
 // import DiveSlider from "@/app/_components/_sliders/_dive-in-slider/DiveSlider";
 // import OurClientSlider from "@/app/_components/_sliders/_ourClientSLider/OurClientSlider";
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import DiveSlider from "../components/DiveSlider";
 import OurClientSlider from "../components/OurClientSlider";
+import { BsDot } from "react-icons/bs";
 
 const ProjectManager = () => {
   let keyFeatureData = [
     {
       icon: "	https://tbe.io/_next/static/media/featureOneIcon.9ade4402.svg",
-      title: "Blockchain Solutions",
-      text: "Leverage TBE's avant-garde blockchain technology for secure, transparent, and hyper-efficient digital interactions.",
+      title: "Project Relations :",
+      text: [
+        { text: "Build and maintain relationships with project owners." },
+        { text: "Act as the main point of contact for listed projects." },
+        { text: "Address project owner inquiries and concerns." },
+      ],
     },
     {
       icon: "https://tbe.io/_next/static/media/tech-suite-product-feature.26a81b2a.svg",
-      title: "Cutting-Edge Tech Suite",
-      text: "Dive into TBE's premier tech offerings, architected to catapult both your personal and business ventures into a future of efficiency, security, and innovation.",
+      title: "Quality Assurance:",
+      text: [
+        {
+          text: "Monitor and assess the quality and performance of listed projects.",
+        },
+        {
+          text: "Ensure that listed projects meet the quality standards and expectations of Mind Smart Chain.",
+        },
+        {
+          text: "Identify areas for improvement and suggest enhancements to listed projects.",
+        },
+      ],
     },
     {
       icon: "	https://tbe.io/_next/static/media/ecosystem-product-feature.a1edea07.svg",
-      title: "Collaborative Ecosystem",
-      text: "Immerse yourself in TBE's robust community of blockchain aficionados, experts, and visionaries, collectively striving for innovation and success.",
+      title: "Technical Support:",
+      text: [
+        {
+          text: "Provide technical guidance and support to projects during the integration process.",
+        },
+        {
+          text: "Assist in resolving technical issues and challenges that may arise.",
+        },
+        {
+          text: "Educate project teams on how to leverage Mind Smart Chain's technical features.",
+        },
+      ],
     },
     {
       icon: "https://tbe.io/_next/static/media/empowerment-feature-icon.40c3398a.svg",
       title: "Financial Empowerment",
-      text: "Gain true financial autonomy with TBE’s invaluable educational resources, pragmatic tools, and ongoing support, guiding you to take the reins of your fiscal future.",
+      text: [
+        { text: "Build and maintain relationships with project owners." },
+        { text: "Act as the main point of contact for listed projects." },
+        { text: "Address project owner inquiries and concerns." },
+      ],
     },
     {
       icon: "	https://tbe.io/_next/static/media/rewards-feature-icon.a0c5f574.svg",
-      title: "Incentive-Driven Rewards",
-      text: "Thrive within TBE's dynamic rewards ecosystem, designed to commend your contributions, foster excellence, and amplify your impact.",
+      title: "Communication:",
+      text: [
+        {
+          text: "Maintain clear and regular communication with project owners, keeping them informed about updates and changes.",
+        },
+        {
+          text: "Collaborate with the Mind Smart Chain technical team to address project-specific technical requirements.",
+        },
+        {
+          text: "Keep internal teams informed about the status of ongoing projects.",
+        },
+      ],
     },
     {
       icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
-      title: "Intuitive User Experience",
-      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+      title: "Documentation and Reporting:",
+      text: [
+        {
+          text: "Maintain documentation of the onboarding process for each project.",
+        },
+        { text: "Generate regular reports on the status of listed projects." },
+        {
+          text: "Provide insights and data on project performance and integration.",
+        },
+      ],
     },
     {
       icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
-      title: "Intuitive User Experience",
-      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+      title: "Feedback Collection:",
+      text: [
+        {
+          text: "Gather feedback from project owners to identify areas for improvement.",
+        },
+        {
+          text: "Collect user feedback related to the performance and user experience of listed projects.",
+        },
+        {
+          text: "Use feedback to iterate on and enhance the onboarding process.",
+        },
+      ],
     },
     {
       icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
-      title: "Intuitive User Experience",
-      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+      title: "Legal Compliance:",
+      text: [
+        {
+          text: "Ensure that all listed projects comply with relevant legal and regulatory requirements.",
+        },
+        {
+          text: "Collaborate with the legal and compliance teams to address any legal issues.",
+        },
+      ],
     },
     {
       icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
-      title: "Intuitive User Experience",
-      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+      title: "Problem-Solving:",
+      text: [
+        {
+          text: "Identify challenges and obstacles during the onboarding process and find solutions.",
+        },
+        {
+          text: "Be proactive in addressing potential roadblocks that may hinder project integration.",
+        },
+      ],
     },
   ];
   return (
@@ -59,8 +130,7 @@ const ProjectManager = () => {
         {/* ProjectManager banner start */}
         <div
           style={{
-            backgroundImage:
-              'url("https://tbe.io/_next/static/media/bg.190279b7.png")',
+            backgroundImage: 'url("https://i.postimg.cc/Xvr2cRHY/mind-43.png")',
             backgroundRepeat: "no-repeat",
             backgroundPosition: "top",
             backgroundSize: "cover",
@@ -88,28 +158,36 @@ const ProjectManager = () => {
         <div className="max-w-container px-[10px] mx-auto py-[100px]">
           <div className="flex flex-col gap-y-10 md:justify-between md:flex-row ">
             <h2 className="w-full md:w-[40%] text-[20px] md:text-[30px] font-bold gradiant-text">
-              Key Features of TBE's Revolutionary Offerings
+              Project Manager Responsibilities
             </h2>
             <p className="w-full md:w-[40%] text-grey">
-              Bridging your ambitions with groundbreaking blockchain technology,
-              TBE equips you with all the tools you need for a transformative
-              journey.
+              Evaluate potential projects for compatibility with Mind Smart
+              Chain. Ensure that projects meet technical standards and
+              compliance requirements. Coordinate the onboarding process,
+              including technical integration and legal compliance.
             </p>
           </div>
           <div className="py-[80px] flex flex-col md:flex-row gap-3 flex-wrap">
-            {keyFeatureData.map((item) => (
-              <div
-                style={{
-                  background: "rgba(64,64,64,.1)",
-                  backdropFilter: "blur(15px)",
-                }}
-                className="rounded-md w-full md:w-[49%] lg:w-[32%]  p-4 flex flex-col gap-y-3"
-              >
-                <img className="w-[50px] h-auto" src={item.icon} alt="" />
-                <h3 className="font-bold text-[25px]">{item.title}</h3>
-                <p>{item.text}</p>
-              </div>
-            ))}
+            {keyFeatureData &&
+              keyFeatureData.map((item) => (
+                <div
+                  style={{
+                    background: "rgba(64,64,64,.1)",
+                    backdropFilter: "blur(15px)",
+                  }}
+                  className="rounded-md w-full md:w-[49%] lg:w-[32%]  p-4 flex flex-col gap-y-3"
+                >
+                  <img className="w-[50px] h-auto" src={item.icon} alt="" />
+                  <h3 className="font-bold text-[25px]">{item.title}</h3>
+
+                  {item.text.map((element, index) => (
+                    <div className="flex gap-3 items-start">
+                      <BsDot className="text-5xl" />
+                      {element?.text}
+                    </div>
+                  ))}
+                </div>
+              ))}
           </div>
         </div>
         {/* keyfeature end */}
@@ -121,10 +199,10 @@ const ProjectManager = () => {
         </div>
         {/* dive in text end */}
         {/* dive slider start */}
-        <DiveSlider/>                                                                                                                                             
+        <DiveSlider />
         {/* dive slider end */}
         {/* our client slider start */}
-        <OurClientSlider/>
+        <OurClientSlider />
         {/* our client slider end */}
       </div>
     </>
