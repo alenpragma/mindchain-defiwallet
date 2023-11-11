@@ -4,9 +4,41 @@ import "swiper/css";
 import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
-import { BsArrowRight } from "react-icons/bs";
+import { RxDotFilled } from "react-icons/rx";
 
 const DiveSlider = () => {
+  const title = [
+    {
+      heading: "Experience and Skills",
+      title:
+        "Look for candidates with experience in project management, particularly in the blockchain or crypto space. They should have a strong understanding of the technical and business aspects of blockchain projects.",
+    },
+    {
+      heading: "Communication Skills",
+      title:
+        "A Project Manager will need to communicate effectively with project teams, your internal team, and other stakeholders. Strong communication skills are a must.",
+    },
+    {
+      heading: "Technical Proficiency",
+      title:
+        "While they don't need to be developers, having a good grasp of blockchain technology will be beneficial for understanding the technical requirements of listed projects.",
+    },
+    {
+      heading: "Problem-Solving Ability",
+      title:
+        "The Project Manager should be a problem solver, as they may encounter challenges during the onboarding process and need to find creative solutions.",
+    },
+    {
+      heading: "Organization and Attention to Detail",
+      title:
+        "Given the complexity of blockchain projects, attention to detail and strong organizational skills are essential.",
+    },
+    {
+      heading: "Negotiation Skills",
+      title:
+        "They will need to negotiate terms with project owners, so having negotiation skills is valuable.",
+    },
+  ];
   return (
     <div className="max-w-container mx-auto px-[10px] pb-[80px] ">
       <Swiper
@@ -20,38 +52,47 @@ const DiveSlider = () => {
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-                Mindchain takes blockchain technology's inherent virtues of security
-                and transparency to the next level. Our premium products stand
-                as paragons of innovation and quality, encapsulating the
-                freshest breakthroughs in the blockchain sphere. Rest easy
-                knowing you're equipped with trustworthy and state-of-the-art
-                solutions.
+                A Mindchain Project Manager needs a diverse skill set to
+                effectively manage and facilitate the onboarding and integration
+                of projects within the Mind Smart Chain ecosystem. Here are the
+                key skills and qualities required for this role:
               </p>
-              <p className="mt-5">
-                Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!
-              </p>
-              <p className="mt-5 flex gap-3 items-center">
-              <span><BsArrowRight /></span>Deposit $1000 to become an Elite Club Member.
-              </p>
+              <div className="mt-5 flex flex-col gap-5">
+                {title.map((element, index) => (
+                  <div className="flex gap-5 items-center justify-start">
+                    <div className="w-10">
+                      <RxDotFilled className="w-5" />
+                    </div>
+                    <div>
+                      <span className="font-semibold">{element.heading} : </span>
+                    {element?.title}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
               <img
-                src="https://i.postimg.cc/SxKSK90w/ELITE-CLUBB.png"
+                src="https://i.postimg.cc/X7FPs6CZ/project-manager.png"
                 className="w-[75%] h-auto"
                 alt=""
               />
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-                The Mindchain Consultant Program is designed to harness the power of our community members to promote Mindchain across various social media platforms and engage in content creation. Consultants will be responsible for sharing Mindchain's mission, updates, and educational content with the broader community. This program is an excellent way for you to earn money while supporting a groundbreaking blockchain project.
+                The Mindchain Consultant Program is designed to harness the
+                power of our community members to promote Mindchain across
+                various social media platforms and engage in content creation.
+                Consultants will be responsible for sharing Mindchain's mission,
+                updates, and educational content with the broader community.
+                This program is an excellent way for you to earn money while
+                supporting a groundbreaking blockchain project.
               </p>
-              <p className="mt-5 font-bold">
-                Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!
-              </p>
+              <p className="mt-5 font-bold"></p>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
               <img
@@ -66,10 +107,20 @@ const DiveSlider = () => {
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-              The Mindchain Consultant Program is designed to harness the power of our community members to promote Mindchain across various social media platforms and engage in content creation. Consultants will be responsible for sharing Mindchain's mission, updates, and educational content with the broader community. This program is an excellent way for you to earn money while supporting a groundbreaking blockchain project.
+                The Mindchain Consultant Program is designed to harness the
+                power of our community members to promote Mindchain across
+                various social media platforms and engage in content creation.
+                Consultants will be responsible for sharing Mindchain's mission,
+                updates, and educational content with the broader community.
+                This program is an excellent way for you to earn money while
+                supporting a groundbreaking blockchain project.
               </p>
               <p className="mt-5 font-bold">
-                Joining the Mindchain Elite Club means becoming part of a community that is shaping the future of blockchain technology. Don't miss your chance to be at the forefront of innovation. Apply for Elite membership now and experience blockchain like never before!.
+                Joining the Mindchain Elite Club means becoming part of a
+                community that is shaping the future of blockchain technology.
+                Don't miss your chance to be at the forefront of innovation.
+                Apply for Elite membership now and experience blockchain like
+                never before!.
               </p>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
@@ -80,7 +131,7 @@ const DiveSlider = () => {
               />
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );
