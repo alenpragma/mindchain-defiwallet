@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import DiveSlider from "../components/DiveSlider";
 import OurClientSlider from "../components/OurClientSlider";
-import { BsDot } from "react-icons/bs";
+import { RxDotFilled } from "react-icons/rx";
 
 const ProjectManager = () => {
   let keyFeatureData = [
@@ -181,8 +181,10 @@ const ProjectManager = () => {
                   <h3 className="font-bold text-[25px]">{item.title}</h3>
 
                   {item.text.map((element, index) => (
-                    <div className="flex gap-3 items-start">
-                      <BsDot className="text-5xl" />
+                    <div className="flex gap-3 items-center justify-start">
+                      <div className="w-10">
+                      <RxDotFilled className="w-5" />
+                      </div>
                       {element?.text}
                     </div>
                   ))}
