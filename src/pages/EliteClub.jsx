@@ -69,11 +69,11 @@ const EliteClub = () => {
               Elite Club is your exclusive gateway to unlocking the full
               potential of the next-generation blockchain platform.
             </p>
-            <Link to="/">
+            <a href="https://my.mindchainwallet.com/">
               <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary ">
-                Register Now
+                Apply Now
               </div>
-            </Link>
+            </a>
           </div>
         </div>
         {/* EliteClub banner end */}

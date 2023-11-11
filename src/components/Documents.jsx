@@ -24,9 +24,11 @@ const Documents = ({ title }) => {
               <p className="text-3xl">
                 Are you ready to embark on this exciting journey as a Mindchain Ambassador? Join us in making a significant impact on the blockchain space. 
               </p>
-              <button className="border border-white px-7 py-1 hover:bg-[#E3AB41] hover:border-[#E3AB41] rounded hover:font-extralight">
+              <a href="https://my.mindchainwallet.com/">
+              <div className="py-[5px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary ">
                 Apply Now
-              </button>
+              </div>
+            </a>
             </div>
             <div className="lg:w-1/2 lg:mt-0 mt-5">
               <img className="rounded-lg" src={image} alt="" />
