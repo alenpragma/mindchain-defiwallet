@@ -85,7 +85,7 @@ const ProjectManager = () => {
       ],
     },
     {
-      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
+      icon: "	https://i.postimg.cc/RVDWgLtk/Feedback-Collection.png",
       title: "Feedback Collection:",
       text: [
         {
@@ -100,7 +100,7 @@ const ProjectManager = () => {
       ],
     },
     {
-      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
+      icon: "https://i.postimg.cc/nh9Cg9YC/Legal-Compliance.png",
       title: "Legal Compliance:",
       text: [
         {
@@ -112,7 +112,7 @@ const ProjectManager = () => {
       ],
     },
     {
-      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
+      icon: "https://i.postimg.cc/W4RhvpXS/Problem-Solving.png",
       title: "Problem-Solving:",
       text: [
         {
@@ -139,7 +139,7 @@ const ProjectManager = () => {
         >
           <div className="max-w-container text-center px-[10px]  mx-auto">
             <p>Blockchain is the future of the world</p>
-            <h1 className="mt-3 text-[25px] font-bold md:text-[40px] text-center">
+            <h1 className="mt-3 text-[25px] font-bold md:text-[40px] text-center uppercase">
               Become A Project Manager of Mindchain Ecosystem
             </h1>
             <p className="mt-3 mb-5 text-grey text-center">
