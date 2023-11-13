@@ -138,13 +138,14 @@ const ProjectManager = () => {
           className="w-full py-[50px] md:py-[100px]"
         >
           <div className="max-w-container text-center px-[10px]  mx-auto">
-            <p>CONNECT, PRODUCE, MAXIMIZE: THE BLOCKCHAIN ERA BEGINS</p>
-            <h1 className="mt-3 text-[35px] font-bold md:text-[50px] text-center">
-              Explore the Future: TBE's Innovative Products
+            <p>Blockchain is the future of the world</p>
+            <h1 className="mt-3 text-[25px] font-bold md:text-[40px] text-center">
+              Become A Project Manager of Mindchain Ecosystem
             </h1>
             <p className="mt-3 mb-5 text-grey text-center">
-              Unlock a world of possibilities with TBE's innovative blockchain
-              products and services tailored to elevate your digital experience.
+              Blockchain Project Manager needs a diverse skill set to
+              effectively manage and facilitate the onboarding and integration
+              of projects within the Mind Smart Chain ecosystem.
             </p>
             <a href="https://my.mindchainwallet.com/">
               <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary ">
@@ -183,7 +184,7 @@ const ProjectManager = () => {
                   {item.text.map((element, index) => (
                     <div className="flex gap-3 items-center justify-start">
                       <div className="w-10">
-                      <RxDotFilled className="w-5" />
+                        <RxDotFilled className="w-5" />
                       </div>
                       {element?.text}
                     </div>

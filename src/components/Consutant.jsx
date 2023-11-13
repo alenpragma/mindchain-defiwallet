@@ -19,14 +19,18 @@ const Consutant = ({ title }) => {
           <div className="lg:flex justify-center items-center flex-row-reverse gap-x-5">
             <div className="lg:w-1/2 leading-10 space-y-10">
               <h2 className="text-6xl font-bold">
-               Welcome to the Mindchain Consultant Program
+                Welcome to the Mindchain Consultant Program
               </h2>
               <p className="text-3xl">
-                 An exciting opportunity to collaborate with us and earn extra income while supporting the growth and success of the Mind Smart Chain ecosystem.
+                An exciting opportunity to collaborate with us and earn extra
+                income while supporting the growth and success of the Mind Smart
+                Chain ecosystem.
               </p>
-              <button className="border border-white px-7 py-1 hover:bg-[#E3AB41] hover:border-[#E3AB41] rounded hover:font-extralight">
-                Apply Now
-              </button>
+              <a href="https://my.mindchainwallet.com/">
+                <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary ">
+                  Apply Now
+                </div>
+              </a>
             </div>
             <div className="lg:w-1/2 lg:mt-0 mt-5">
               <img className="rounded-lg" src={image} alt="" />
@@ -40,7 +44,10 @@ const Consutant = ({ title }) => {
               What is the Mindchain Consultant Program?
             </h2>
             <p>
-              Consultants will be responsible for sharing Mindchain's mission, updates, and educational content with the broader community. This program is an excellent way for you to earn money while supporting a groundbreaking blockchain project.
+              Consultants will be responsible for sharing Mindchain's mission,
+              updates, and educational content with the broader community. This
+              program is an excellent way for you to earn money while supporting
+              a groundbreaking blockchain project.
             </p>
           </div>
           <div className="lg:grid grid-cols-3 gap-2">
@@ -49,42 +56,56 @@ const Consutant = ({ title }) => {
                 <img className="w-16" src={feature1} alt="" />
                 <h2 className="text-2xl font-semibold">Flexible Work</h2>
                 <p>
-                 As a consultant, you have the flexibility to work at your own pace, making it an ideal side gig for students, professionals, or anyone looking to earn extra income.
+                  As a consultant, you have the flexibility to work at your own
+                  pace, making it an ideal side gig for students, professionals,
+                  or anyone looking to earn extra income.
                 </p>
               </div>
               <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
                 <img className="w-16" src={feature2} alt="" />
                 <h2 className="text-2xl font-semibold">Earn While You Learn</h2>
                 <p>
-                  Enhance your knowledge of blockchain technology and cryptocurrency as you engage with the Mindchain community and stay updated on the latest industry trends.
+                  Enhance your knowledge of blockchain technology and
+                  cryptocurrency as you engage with the Mindchain community and
+                  stay updated on the latest industry trends.
                 </p>
               </div>
             </div>
             <div className="p-5 flex flex-col gap-5 lg:gap-0 md:gap-0 justify-between bg-[#ffffff0d] mt-5 lg:mt-0 md:mt-0 rounded">
               <div>
-                <h2 className="text-2xl font-semibold">Competitive Compensation</h2>
+                <h2 className="text-2xl font-semibold">
+                  Competitive Compensation
+                </h2>
                 <p>
-                  Consultants will receive competitive compensation based on their level of activity and the quality of their contributions.
+                  Consultants will receive competitive compensation based on
+                  their level of activity and the quality of their
+                  contributions.
                 </p>
               </div>
               <img className="w-full" src={feature5} alt="" />
             </div>
-              <div className="flex flex-col gap-3 lg:mt-0 mt-5">
-                <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
-                  <img className="w-16" src={feature3} alt="" />
-                  <h2 className="text-2xl font-semibold">Contribute to Mindchain's Success</h2>
-                  <p>
-                    Your efforts directly impact Mindchain's growth and adoption, making you an essential part of our journey.
-                  </p>
-                </div>
-                <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
-                  <img className="w-16" src={feature4} alt="" />
-                  <h2 className="text-2xl font-semibold">Networking Opportunities</h2>
-                  <p>
-                   Connect with other Mindchain Consultants, developers, and industry experts through exclusive events and collaborations.
-                  </p>
-                </div>
+            <div className="flex flex-col gap-3 lg:mt-0 mt-5">
+              <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
+                <img className="w-16" src={feature3} alt="" />
+                <h2 className="text-2xl font-semibold">
+                  Contribute to Mindchain's Success
+                </h2>
+                <p>
+                  Your efforts directly impact Mindchain's growth and adoption,
+                  making you an essential part of our journey.
+                </p>
               </div>
+              <div className="p-5 space-y-5 rounded w-full bg-[#ffffff0d]">
+                <img className="w-16" src={feature4} alt="" />
+                <h2 className="text-2xl font-semibold">
+                  Networking Opportunities
+                </h2>
+                <p>
+                  Connect with other Mindchain Consultants, developers, and
+                  industry experts through exclusive events and collaborations.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -93,7 +114,9 @@ const Consutant = ({ title }) => {
           <div className="flex justify-center items-center gap-3">
             <div className="lg:w-1/2 space-y-8">
               <div>
-                <h2 className="text-2xl font-semibold">Consultant Responsibilities</h2>
+                <h2 className="text-2xl font-semibold">
+                  Consultant Responsibilities
+                </h2>
                 <p className="mt-5">
                   As a Mindchain Consultant, your responsibilities will include:
                 </p>
@@ -102,25 +125,32 @@ const Consutant = ({ title }) => {
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon1} alt="" />
                   <p>
-                    Social Media Engagement: Share Mindchain content, news, and updates on your social media channels, engaging with your audience and promoting meaningful discussions.
+                    Social Media Engagement: Share Mindchain content, news, and
+                    updates on your social media channels, engaging with your
+                    audience and promoting meaningful discussions.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon2} alt="" />
                   <p>
-                    Content Creation: Develop high-quality content such as articles, blog posts, videos, and infographics related to Mindchain and blockchain technology.
+                    Content Creation: Develop high-quality content such as
+                    articles, blog posts, videos, and infographics related to
+                    Mindchain and blockchain technology.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon3} alt="" />
                   <p>
-                  Community Building: Foster a welcoming and supportive atmosphere within the Mindchain community, answer questions, and help new members.
+                    Community Building: Foster a welcoming and supportive
+                    atmosphere within the Mindchain community, answer questions,
+                    and help new members.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-start items-center">
                   <img src={icon3} alt="" />
                   <p>
-                 Data Analysis: Analyze and report on the effectiveness of your efforts in increasing Mindchain's online presence.
+                    Data Analysis: Analyze and report on the effectiveness of
+                    your efforts in increasing Mindchain's online presence.
                   </p>
                 </div>
               </div>
