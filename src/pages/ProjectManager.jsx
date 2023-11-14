@@ -85,7 +85,7 @@ const ProjectManager = () => {
       ],
     },
     {
-      icon: "	https://i.postimg.cc/RVDWgLtk/Feedback-Collection.png",
+      icon: "https://i.postimg.cc/Bn2bHCyJ/Feedback-Collection.png",
       title: "Feedback Collection:",
       text: [
         {
@@ -100,7 +100,7 @@ const ProjectManager = () => {
       ],
     },
     {
-      icon: "https://i.postimg.cc/nh9Cg9YC/Legal-Compliance.png",
+      icon: "https://i.postimg.cc/BvvN7NFG/Legal-Compliance.png",
       title: "Legal Compliance:",
       text: [
         {
@@ -112,7 +112,7 @@ const ProjectManager = () => {
       ],
     },
     {
-      icon: "https://i.postimg.cc/W4RhvpXS/Problem-Solving.png",
+      icon: "https://i.postimg.cc/CLdT3HVS/Problem-Solving.png",
       title: "Problem-Solving:",
       text: [
         {
