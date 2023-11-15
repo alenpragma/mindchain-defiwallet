@@ -147,10 +147,11 @@ const ProjectManager = () => {
               effectively manage and facilitate the onboarding and integration
               of projects within the Mind Smart Chain ecosystem.
             </p>
-            <a href="https://my.mindchainwallet.com/">
+            <a href="https://forms.gle/P4QafKo45cjy7RJV6" target="_blank">
               <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary ">
                 Apply Now
               </div>
+              
             </a>
           </div>
         </div>
