@@ -9,7 +9,7 @@ import feature1 from "../assets/images/feature/feature1.svg";
 import feature2 from "../assets/images/feature/feature2.svg";
 import feature3 from "../assets/images/feature/feature3.svg";
 import feature4 from "../assets/images/feature/feature4.svg";
-import feature5 from "../assets/images/feature/fetuare5.png";
+import feature5 from "../assets/images/feature/Ambasetor.png";
 
 const Documents = ({ title }) => {
   return (
