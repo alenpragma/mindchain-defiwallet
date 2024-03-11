@@ -62,7 +62,7 @@ const Navbar = () => {
             <div className="xs:block w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-x-2 text-end  md:justify-end">
              <ul className=" flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center">
                 <li className="">
-                  <Link to="https://www.mindchain.info">Mindchain Coin</Link>
+                  <Link to="https://www.mindchain.info">Exchange</Link>
                 </li>
                 <li className="flex justify-center relative items-center group cursor-pointer">
                   Documentation{" "}
