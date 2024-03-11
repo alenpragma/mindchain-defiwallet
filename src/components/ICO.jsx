@@ -36,7 +36,7 @@ const ICO = () => {
         </div>
         <Tabs className=" px-0 md:px-[100px] text-[15px] md:text-[18px] ">
           <TabList className="flex justify-center">
-            <Tab>LAUNCHPAD</Tab>
+            <Tab>Mindchain</Tab>
            
             <Tab>MARCHENT</Tab>
             <Tab>AMBASSADOR</Tab>
@@ -46,7 +46,7 @@ const ICO = () => {
             <div className="flex flex-col md:flex-row pt-[60px]">
               <div className=" w-full md:w-2/4 pb-[40px] md:pb-[0]">
                 <h2 className="font-cabin font-normal pb-[30px]">
-                  Perry Mind Token (PMIND)
+                  Mindchain Coin
                 </h2>
                 <div className="flex flex-col gap-[15px]">
                   <p>MindChain is a trusted, unique and best cryptocurrency, it is fast growing and secure. This is the name of the native currency MIND coin. It is the most affordable, convenient, and interoperable, high-performance blockchain cryptocurrency.</p>
