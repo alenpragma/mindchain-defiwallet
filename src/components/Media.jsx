@@ -31,7 +31,7 @@ const Media = () => {
                             <img className='w-[30rem]' src={post1} alt="post1" />
                         </div>
                         <div className="">
-                            <h2 className='font-cabin font-medium text-[18px]'>How You Can Get Free MIND on MSC Testnet <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] relative before:absolute before:w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>June 8, 2023</span></h2>
+                            <h2 className='font-cabin font-medium text-[18px]'>What is Layer 1 Cryptocurrency and <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] Their Investment Potential?:w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>Mar 11, 2024</span></h2>
                             <p className='py-[20px]'>The best way to get free MIND testnet tokens is from the official Mind Smart Chain Faucet (MIND Faucet). With this method, all users need to do is visit the website and enter their MSC testnet address to receive 1 free MIND testnet coin.
                             </p>
                             <div className="flex item-center justify-between">
