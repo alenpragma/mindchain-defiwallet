@@ -4,7 +4,7 @@ import Container from '../components/layouts/Container'
 
 // images
 import post1 from '../assets/images/media/layer1.svg'
-import post2 from '../assets/images/media/post2.svg'
+import post2 from '../assets/images/media/mindchain.svg'
 import post3 from '../assets/images/media/post3.svg'
 
 import post_team1 from '../assets/images/team/john.jpg'
@@ -57,7 +57,7 @@ const Media = () => {
                             <img className='w-[30rem]' src={post2} alt="post2" />
                         </div>
                         <div className="">
-                            <h2 className='font-cabin font-medium text-[18px]'> Explaining The Mindchain Ecosystem <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] relative before:absolute before:w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>January 19, 2023</span></h2>
+                            <h2 className='font-cabin font-medium text-[18px]'>Why Mindchain a promising asset in <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] the dynamic cryptocurrency landscape :w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>January 19, 2023</span></h2>
                             <p className='py-[20px]'>Mindchain is a fast, high-throughput open-source smart contract platform for digital assets and dApps. It offers unmatched speed, security, and reliability. Enjoy almost instant transactions and extremely low fees.
                             </p>
                             <div className="flex item-center justify-between">
