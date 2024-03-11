@@ -36,7 +36,7 @@ const ICO = () => {
         </div>
         <Tabs className=" px-0 md:px-[100px] text-[15px] md:text-[18px] ">
           <TabList className="flex justify-center">
-            <Tab>Mindchain</Tab>
+            <Tab>Mindchain CEX</Tab>
            
             <Tab>MARCHENT</Tab>
             <Tab>AMBASSADOR</Tab>
@@ -46,7 +46,7 @@ const ICO = () => {
             <div className="flex flex-col md:flex-row pt-[60px]">
               <div className=" w-full md:w-2/4 pb-[40px] md:pb-[0]">
                 <h2 className="font-cabin font-normal pb-[30px]">
-                  Mindchain Coin
+                  Mindchain CEX
                 </h2>
                 <div className="flex flex-col gap-[15px]">
                   <p>MindChain is a trusted, unique and best cryptocurrency, it is fast growing and secure. This is the name of the native currency MIND coin. It is the most affordable, convenient, and interoperable, high-performance blockchain cryptocurrency.</p>
@@ -87,25 +87,14 @@ const ICO = () => {
                       )}
                     />
                   </div>
-                  <div className="flex justify-end gap-[10px] pb-[15px]">
-                    <p className='pr-[5px] text-[12px] lg:pr-[60px] relative lg:before:absolute lg:before:w-[1px] lg:before:h-[33px] before:bg-white lg:before:content-[""] before:bottom-[-280%] before:left-[20%] lg:before:translate-x-[-50%] lg:before:translate-y-[-50%] before:z-1 '>
-                      Presale
-                    </p>
-                    <p className='pr-[5px] text-[12px] lg:pr-[40px] relative lg:before:absolute lg:before:w-[1px] lg:before:h-[33px] before:bg-white lg:before:content-[""] before:bottom-[-280%] before:left-[20%] lg:before:translate-x-[-50%] lg:before:translate-y-[-50%] before:z-1  '>
-                      Soft Cap
-                    </p>
-                    <p className='pr-[5px] text-[12px] lg:pr-[35px] relative lg:before:absolute lg:before:w-[1px] lg:before:h-[33px] before:bg-white lg:before:content-[""] before:bottom-[-280%] before:left-[20%] lg:before:translate-x-[-50%] lg:before:translate-y-[-50%] before:z-1  '>
-                      Bonus
-                    </p>
-                  </div>
-
+                 
                   <div class="w-full bg-neutral-200 dark:bg-neutral-600 rounded-[15px]">
                     <div class="bg-primary p-[10px] text-center text-xs font-medium leading-none text-primary-100 w-[70%] rounded-full"></div>
                   </div>
 
                   <div className="flex justify-center">
                     <button className=" bg-gradient-to-r from-[#DEA83C] text-[10px] md:text-[18px] bg-primary text-white py-[10px] lg:py-2 px-3 md:px-7 mt-[20px] uppercase rounded-full hover:bg-[#dea029]">
-                      Join Lunchpad
+                      Starting CEX
                     </button>
                   </div>
                 </div>
