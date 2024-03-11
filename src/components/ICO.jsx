@@ -37,7 +37,7 @@ const ICO = () => {
         <Tabs className=" px-0 md:px-[100px] text-[15px] md:text-[18px] ">
           <TabList className="flex justify-center">
             <Tab>LAUNCHPAD</Tab>
-            <Tab>STAKING</Tab>
+           
             <Tab>MARCHENT</Tab>
             <Tab>AMBASSADOR</Tab>
           </TabList>
@@ -129,52 +129,7 @@ const ICO = () => {
               </div>
             </div>
           </TabPanel>
-          <TabPanel>
-            <div className="flex pt-[50px]">
-              <div className="w-2/4">
-                <h2 className="font-cabin font-normal pb-[30px]">
-                  {" "}
-                  MIND Staking Details{" "}
-                </h2>
-                <h3 className="font-cabin font-light">
-                  The easy way to Deposit & Earn
-                </h3>
-                <div className="flex flex-col gap-[15px]">
-                  <div>
-                    <h3 className="font-cabin font-light">
-                      {" "}
-                      Minimum Staking MIND{" "}
-                    </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
-                      {" "}
-                      100 Mindchain Coin (22%){" "}
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-cabin font-light">
-                      {" "}
-                      Maximum Staking MIND{" "}
-                    </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
-                      {" "}
-                      50000 Mindchain Coin{" "}
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-cabin font-light"> Duration </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
-                      {" "}
-                      Staking Earn allows users to earn daily rewards by staking
-                      their Mindchain Coin for Flexible or Fixed terms.{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="w-2/4">
-                <img className="w-[70%]" src={tokensImg} alt="tokensImg" />
-              </div>
-            </div>
-          </TabPanel>
+
           <TabPanel>
             <div className="flex pt-[50px]">
               <div className="w-2/4">
