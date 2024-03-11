@@ -31,7 +31,7 @@ const Media = () => {
                             <img className='w-[30rem]' src={post1} alt="post1" />
                         </div>
                         <div className="">
-                            <h2 className='font-cabin font-medium text-[18px]'>What is Layer 1 Cryptocurrency and <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] Their Investment Potential?:w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>Mar 11, 2024</span></h2>
+                            <h2 className='font-cabin font-medium text-[18px]'>What is Layer 1 Cryptocurrency and Their Investment Potential? <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] :w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>Mar 11, 2024</span></h2>
                             <p className='py-[20px]'>The best way to get free MIND testnet tokens is from the official Mind Smart Chain Faucet (MIND Faucet). With this method, all users need to do is visit the website and enter their MSC testnet address to receive 1 free MIND testnet coin.
                             </p>
                             <div className="flex item-center justify-between">
@@ -57,7 +57,7 @@ const Media = () => {
                             <img className='w-[30rem]' src={post2} alt="post2" />
                         </div>
                         <div className="">
-                            <h2 className='font-cabin font-medium text-[18px]'>Why Mindchain a promising asset in <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] the dynamic cryptocurrency landscape :w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>January 19, 2023</span></h2>
+                            <h2 className='font-cabin font-medium text-[18px]'>Why Mindchain a promising asset in the dynamic cryptocurrency landscape <span className='font-cabin font-light text-[16px] pl-[20px] md:pl-[40px] :w-[3px] before:h-[20px] before:bg-primary before:content-[""] before:bottom-[-50%] before:left-[5%] md:before:left-[20%]  before:translate-x-[-50%] before:translate-y-[-50%] before:z-10'>January 19, 2023</span></h2>
                             <p className='py-[20px]'>Mindchain is a fast, high-throughput open-source smart contract platform for digital assets and dApps. It offers unmatched speed, security, and reliability. Enjoy almost instant transactions and extremely low fees.
                             </p>
                             <div className="flex item-center justify-between">
