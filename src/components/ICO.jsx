@@ -50,12 +50,7 @@ const ICO = () => {
                 </h2>
                 <div className="flex flex-col gap-[15px]">
                   <p>MindChain is a trusted, unique and best cryptocurrency, it is fast growing and secure. This is the name of the native currency MIND coin. It is the most affordable, convenient, and interoperable, high-performance blockchain cryptocurrency.</p>
-                  <div>
-                    <h3 className="font-cabin font-light"> Presale </h3>
-                    <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
-                      Bonus starts on July 29 2021 (12:00am GMT)
-                    </p>
-                  </div>
+                
                 </div>
               </div>
               <div className="w-full md:w-2/4 ">
