@@ -3,7 +3,7 @@ import React from 'react'
 import Container from '../components/layouts/Container'
 
 // images
-import post1 from '../assets/images/media/post1.svg'
+import post1 from '../assets/images/media/layer1.svg'
 import post2 from '../assets/images/media/post2.svg'
 import post3 from '../assets/images/media/post3.svg'
 
