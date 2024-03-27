@@ -37,24 +37,30 @@ const ICO = () => {
         <Tabs className=" px-0 md:px-[100px] text-[15px] md:text-[18px] ">
           <TabList className="flex justify-center">
             <Tab>Mindchain CEX</Tab>
-           
+
             <Tab>MARCHENT</Tab>
             <Tab>AMBASSADOR</Tab>
           </TabList>
 
           <TabPanel>
-            <div className="flex flex-col md:flex-row pt-[60px]">
+            <div className="flex flex-col md:flex-row md:items-center pt-[60px]">
               <div className=" w-full md:w-2/4 pb-[40px] md:pb-[0]">
                 <h2 className="font-cabin font-normal pb-[30px]">
                   Mindchain CEX
                 </h2>
                 <div className="flex flex-col gap-[15px]">
-                  <p>MindChain is a trusted, unique and best cryptocurrency, it is fast growing and secure. This is the name of the native currency MIND coin. It is the most affordable, convenient, and interoperable, high-performance blockchain cryptocurrency.</p>
-                
+                  <p>
+                    MindChain is a trusted, unique and best cryptocurrency, it
+                    is fast growing and secure. This is the name of the native
+                    currency MIND coin. It is the most affordable, convenient,
+                    and interoperable, high-performance blockchain
+                    cryptocurrency.
+                  </p>
                 </div>
               </div>
               <div className="w-full md:w-2/4 ">
-                <div className="bg-[#f7be69fe]  w-full p-[35px] rounded">
+                <img className="w-full " src="https://mindchain.info/Upload/ad/660001cbd2ce0.png" alt="" />
+                {/* <div className="bg-[#f7be69fe]  w-full p-[35px] rounded">
                   <div className=" w-full flex pl-0 lg:pl-[53px]">
                     <Countdown
                       targetDate={oneHour}
@@ -87,9 +93,9 @@ const ICO = () => {
                       )}
                     />
                   </div>
-                 
-                  <div class="w-full bg-neutral-200 dark:bg-neutral-600 rounded-[15px]">
-                    <div class="bg-primary p-[10px] text-center text-xs font-medium leading-none text-primary-100 w-[70%] rounded-full"></div>
+
+                  <div className="w-full bg-neutral-200 dark:bg-neutral-600 rounded-[15px]">
+                    <div className="bg-primary p-[10px] text-center text-xs font-medium leading-none text-primary-100 w-[70%] rounded-full"></div>
                   </div>
 
                   <div className="flex justify-center">
@@ -97,7 +103,7 @@ const ICO = () => {
                       Starting CEX
                     </button>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </TabPanel>
@@ -208,13 +214,16 @@ const ICO = () => {
                     </p> */}
                   </div>
                   <div>
-                    <h3 className="font-cabin font-light flex items-center gap-x-3">  <BsArrowReturnRight /> Market Research </h3>
+                    <h3 className="font-cabin font-light flex items-center gap-x-3">
+                      {" "}
+                      <BsArrowReturnRight /> Market Research{" "}
+                    </h3>
                     {/* <p className="font-sans font-light text-[14px] text-[#d1d1d1] pl-[10px]">
                       {" "}
                       Minimal transaction amount is 1 BTC, 1 ETH, 1 LTC{" "}
                     </p> */}
                   </div>
-                 
+
                   <div className="">
                     <h3 className="font-cabin font-light flex items-center gap-x-3">
                       <BsArrowReturnRight />

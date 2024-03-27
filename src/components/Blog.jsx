@@ -54,20 +54,24 @@ const Blog = () => {
                 <h2 className="text-yellow-500 text-2xl font-semibold">
                   MindBase (BMIND)
                 </h2>
-                <h2 className=" font-semibold text-2xl">
-                  Airdrop No: 02
-                </h2>
+                <h2 className=" font-semibold text-2xl">Airdrop No: 02</h2>
               </div>
             </div>
             <div className="mt-10">
               <ul className="">
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
-                  <span>Start Time : <span className="text-[#E3AB41]">Starts Soon</span></span>
+                  <span>
+                    Start Time :{" "}
+                    <span className="text-[#E3AB41]">Starts Soon</span>
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
-                  <span>Ending Time : <span className="text-[#E3AB41]">Wait please</span></span>
+                  <span>
+                    Ending Time :{" "}
+                    <span className="text-[#E3AB41]">Wait please</span>
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <BsDot className="text-[40px]" />
@@ -112,10 +116,13 @@ const Blog = () => {
                   </li>
                 ))}
                 <li>
-                task 10 : Visit{" "}
+                  task 10 : Visit{" "}
                   <span>
-                    <a className="text-blue-500" href="https://www.mindchainwallet.com">
-                    https://www.mindchainwallet.com
+                    <a
+                      className="text-blue-500"
+                      href="https://www.mindchainwallet.com"
+                    >
+                      https://www.mindchainwallet.com
                     </a>
                   </span>{" "}
                   and remark about Mindchain ecosystem
