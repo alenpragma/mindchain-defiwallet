@@ -1,21 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import CoinMarket from './pages/CoinMarket';
-import Home from './pages/Home';
-import './index.css';
+import CoinMarket from "./pages/CoinMarket";
+import Home from "./pages/Home";
+import "./index.css";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import RootLayout from './components/RootLayout';
-import { ToastContainer } from 'react-toastify';
-import AirDrop from './pages/AirDrop';
-import Documents from './components/Documents';
-import EliteClub from './pages/EliteClub';
-import ProjectManager from './pages/ProjectManager';
-import Consutant from './components/Consutant';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import RootLayout from "./components/RootLayout";
+import { ToastContainer } from "react-toastify";
+import AirDrop from "./pages/AirDrop";
+import Documents from "./components/Documents";
+import EliteClub from "./pages/EliteClub";
+import ProjectManager from "./pages/ProjectManager";
+import Consutant from "./components/Consutant";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const router = createBrowserRouter([
   {
@@ -36,29 +34,33 @@ const router = createBrowserRouter([
       },
       {
         path: "ambassador",
-        element: <Documents />
+        element: <Documents />,
       },
       {
         path: "eliteclub",
-        element: <EliteClub />
+        element: <EliteClub />,
       },
       {
         path: "projectmanager",
-        element: <ProjectManager />
-      },{
-        path:"consultant",
-        element:<Consutant/>
-      }
-    ]
-  }
+        element: <ProjectManager />,
+      },
+      {
+        path: "consultant",
+        element: <Consutant />,
+      },
+      {
+        path: "privacy-policy",
+        element: <PrivacyPolicy />,
+      },
+    ],
+  },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div className="bg-lightBlue">
-
-     <RouterProvider router={router} />
-     <ToastContainer
+      <RouterProvider router={router} />
+      <ToastContainer
         position="bottom-center"
         autoClose={5000}
         limit={1}
@@ -72,5 +74,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         theme="dark"
       />
     </div>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

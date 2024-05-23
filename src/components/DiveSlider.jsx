@@ -59,13 +59,18 @@ const DiveSlider = () => {
               </p>
               <div className="mt-5 flex flex-col gap-5">
                 {title.map((element, index) => (
-                  <div className="flex gap-5 items-center justify-start">
+                  <div
+                    key={index}
+                    className="flex gap-5 items-center justify-start"
+                  >
                     <div className="w-10">
                       <RxDotFilled className="w-5" />
                     </div>
                     <div>
-                      <span className="font-semibold">{element.heading} : </span>
-                    {element?.title}
+                      <span className="font-semibold">
+                        {element.heading} :{" "}
+                      </span>
+                      {element?.title}
                     </div>
                   </div>
                 ))}

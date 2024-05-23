@@ -42,7 +42,7 @@ const Navbar = () => {
     <nav className="bg-lightBlue py-5 text-white relative z-[999] w-full animate-fade-down animate-once">
       <Container>
         <div className="flex flex-col md:flex-row gap-y-[40px] md:gap-y-0 justify-between relative ">
-          <a className="w-full lg:w-1/4" href="https://www.mindchainwallet.com">
+          <Link to="/" className="w-full lg:w-1/4">
             <img
               className="w-9 inline-block animate-spin origin-center"
               src={navicon}
@@ -51,7 +51,7 @@ const Navbar = () => {
             <span className="pl-2 lg:pl-4 font-cabin font-semibold text-[13px]lg:text-[19px] tracking-widest">
               MINDCHAINWALLET
             </span>
-          </a>
+          </Link>
           <div
             className="block md:hidden absolute top-[5px] right-[15px] text-[35px] cursor-pointer"
             onClick={() => setMobile(!mobile)}
@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
           {mobile && (
             <div className="xs:block w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-x-2 text-end  md:justify-end">
-             <ul className=" flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center">
+              <ul className=" flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center">
                 <li className="">
                   <Link to="https://www.mindchain.info">Exchange</Link>
                 </li>
@@ -69,10 +69,10 @@ const Navbar = () => {
                   <BsChevronDown className="duration-300 group-hover:rotate-[180deg] " />
                   <div className="absolute z-[999999] hidden bottom-[-180px] p-2 rounded-md bg-[#222] group-hover:flex">
                     <ul className="flex flex-col gap-y-3">
-                     { documentationDropDown.map((item,index)=>(
-                      <li className="hover:text-[#e0e0e0]" key={index}>
-                        <Link to={item.path}>{item.name}</Link>
-                      </li>
+                      {documentationDropDown.map((item, index) => (
+                        <li className="hover:text-[#e0e0e0]" key={index}>
+                          <Link to={item.path}>{item.name}</Link>
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -111,10 +111,10 @@ const Navbar = () => {
                   <BsChevronDown className="duration-300 group-hover:rotate-[180deg] " />
                   <div className="absolute z-[999999] hidden bottom-[-180px] p-2 rounded-md bg-[#222] group-hover:flex">
                     <ul className="flex flex-col gap-y-3">
-                     { documentationDropDown.map((item,index)=>(
-                      <li className="hover:text-[#e0e0e0]" key={index}>
-                        <Link to={item.path}>{item.name}</Link>
-                      </li>
+                      {documentationDropDown.map((item, index) => (
+                        <li className="hover:text-[#e0e0e0]" key={index}>
+                          <Link to={item.path}>{item.name}</Link>
+                        </li>
                       ))}
                     </ul>
                   </div>
