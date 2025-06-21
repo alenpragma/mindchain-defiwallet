@@ -14,6 +14,7 @@ import EliteClub from "./pages/EliteClub";
 import ProjectManager from "./pages/ProjectManager";
 import Consutant from "./components/Consutant";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import WingsPartner from "./pages/WingsPartner";
 
 const router = createBrowserRouter([
   {
@@ -29,8 +30,8 @@ const router = createBrowserRouter([
         element: <CoinMarket />,
       },
       {
-        path: "airdrop",
-        element: <AirDrop />,
+        path: "wings-partner",
+        element: <WingsPartner />,
       },
       {
         path: "ambassador",

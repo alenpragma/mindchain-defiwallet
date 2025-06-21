@@ -87,7 +87,7 @@ const Navbar = () => {
                   <Link to="CoinMarket">Coin Market</Link>
                 </li>
                 <li className="">
-                  <Link to="airdrop">Air-Drop</Link>
+                  <Link to="wings-partner">Wings-Partner</Link>
                 </li>
                 <li className="">
                   <a href="https://t.me/mindchainMIND">
@@ -102,7 +102,7 @@ const Navbar = () => {
           )}
           {show && (
             <div className=" min-[0px]:hidden md:blcok w-full md:w-3/4 md:flex flex-col md:flex-row md:items-center gap-x-2 text-end   md:justify-end ">
-              <ul className=" flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal text-sm uppercase text-center">
+              <ul className=" flex flex-col md:flex-row gap-y-[15px] md:gap-x-3 lg:gap-x-6 font-cabin font-normal uppercase text-center text-[12px]">
                 <li className="">
                   <Link to="https://www.mindchain.info">Mindchain Coin</Link>
                 </li>
@@ -129,7 +129,7 @@ const Navbar = () => {
                   <Link to="CoinMarket">Coin Market</Link>
                 </li>
                 <li className="">
-                  <Link to="airdrop">Air-Drop</Link>
+                  <Link to="wings-partner">Wings-Partner</Link>
                 </li>
                 <li className="">
                   <a href="https://t.me/mindchainMIND">

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Container from './layouts/Container';
@@ -6,6 +5,7 @@ import Container from './layouts/Container';
 const Market = () => {
 
     const [marketdata, setMarketdata] = useState([])
+    console.log(marketdata);
 
     useEffect(()=>{
         async function market() {
