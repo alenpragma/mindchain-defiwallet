@@ -31,7 +31,7 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Alpha Liton",
+    name: "Mr. Alphaliton",
     title: "Marketing Consultant",
     content:
       "Beyond profits, being a Wings Partner gave my brand exposure across the crypto world. It’s more than investment — it’s reputation, reach, and returns.",
@@ -71,7 +71,7 @@ export default function TestimonialSection() {
       onMouseLeave={() => setIsPaused(false)}
     >
       <div className="w-full mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">What Our Wings Partner Says</h2>
+        <h2 className="text-4xl font-bold mb-4">{`Wings Partner’s Perspective`}</h2>
         <p className="text-gray-300 mb-10">
           Discover why thousands of users trust MindchainWallet for their DeFi
           journey
