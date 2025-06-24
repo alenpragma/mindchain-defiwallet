@@ -4,29 +4,48 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Chen",
-    title: "Blockchain Developer & Tech Lead",
-    content: `Mindchain stands out as a next-generation blockchain platform with the potential to reshape the future of decentralized technology. Its vision of creating a secure, scalable, and efficient ecosystem aligns well with the evolving demands of the digital world. What makes Mindchain unique is its comprehensive approach—integrating smart contracts, DeFi, NFTs, and a native exchange under one ecosystem.
-
-With a strong development roadmap, active community engagement, and a growing list of use cases, Mindchain is not just keeping pace with blockchain trends—it's aiming to lead them.`,
+    name: "Mrs. Serra",
+    title: "Crypto Entrepreneur",
+    content:
+      "Becoming a Wings Partner was the smartest move I made in crypto. The shareholding and revenue opportunities are unmatched, and Mindchain’s vision is truly futuristic.",
     image: "",
     rating: 5,
   },
   {
     id: 2,
-    name: "Liam Torres",
-    title: "Crypto Investor & Educator",
-    content: `The Mindchain team clearly understands the importance of real-world utility. Their emphasis on community governance, transparent tokenomics, and seamless DeFi integration is impressive. I believe this platform is a gem in the making.`,
+    name: "Mr. Zhi Wei",
+    title: "Crypto Investor",
+    content:
+      "I started with the minimum $2,000 and instantly saw the potential. The transparency, professionalism, and profit-sharing model convinced me to scale up to full shareholder level!",
+    image: "",
+    rating: 4,
+  },
+  {
+    id: 3,
+    name: "Mr. Ravi",
+    title: "Blockchain Advisor",
+    content:
+      "Mindchain CEX isn’t just another exchange — it’s a next-gen platform. As a Wings Partner, I get to profit and grow alongside a world-class crypto ecosystem.",
+    image: "",
+    rating: 4,
+  },
+  {
+    id: 4,
+    name: "Md Liton",
+    title: "Marketing Consultant",
+    content:
+      "Beyond profits, being a Wings Partner gave my brand exposure across the crypto world. It’s more than investment — it’s reputation, reach, and returns.",
     image: "",
     rating: 5,
   },
   {
-    id: 3,
-    name: "Liam Torres",
-    title: "Crypto Investor & Educator",
-    content: `The Mindchain team clearly understands the importance of real-world utility. Their emphasis on community governance, transparent tokenomics, and seamless DeFi integration is impressive. I believe this platform is a gem in the making.`,
+    id: 5,
+    name: "Mr. Mateusz",
+    title: "Community Builder",
+    content:
+      "Mindchain is serious about community-driven success. As a Wings Partner, I feel like part of the team, not just an investor.",
     image: "",
-    rating: 5,
+    rating: 4,
   },
 ];
 
@@ -71,7 +90,7 @@ export default function TestimonialSection() {
           >
             <ChevronRight size={16} />
           </button>
-          <div className="flex flex-col md:flex-row items-start gap-6 transition-opacity duration-700 opacity-100">
+          <div className="flex flex-col md:flex-row items-center gap-6 transition-opacity duration-700 opacity-100">
             <div className="flex flex-col items-center md:items-start min-w-[140px]">
               <div className="w-20 h-20 rounded-full border-4 border-white bg-gray-200 flex items-center justify-center text-gray-500">
                 {testimonial.image ? (
