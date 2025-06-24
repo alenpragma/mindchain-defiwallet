@@ -1,4 +1,5 @@
 import React from "react";
+import TestimonialSection from "../components/Testimonials";
 
 const WingsPartner = () => {
   return (
@@ -177,6 +178,9 @@ const WingsPartner = () => {
             "Turn your investment into a legacy."
           </p>
         </div>
+
+
+        <TestimonialSection />
 
         {/* Footer */}
         <div className="text-center pt-4 border-t border-white/20">
